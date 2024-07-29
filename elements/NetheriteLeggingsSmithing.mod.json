@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.DIAMOND_LEGGINGS"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Blocks.NETHERITE_BLOCK"
+    },
+    "smithingReturnStack": {
+      "value": "Items.NETHERITE_LEGGINGS"
+    },
+    "name": "netherite_leggings_smithing",
+    "namespace": "minecraft"
+  }
+}

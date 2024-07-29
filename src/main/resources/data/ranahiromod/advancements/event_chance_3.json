@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancements.event_chance_3.title"
+    },
+    "description": {
+      "translate": "advancements.event_chance_3.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "event_chance_3_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:event_chance_2"
+}

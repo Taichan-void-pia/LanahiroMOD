@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "magic_wand_heal"
+      },
+      "name": "default"
+    },
+    "blaze": {
+      "map": {
+        "0": ""
+      },
+      "name": "blaze"
+    }
+  }
+}

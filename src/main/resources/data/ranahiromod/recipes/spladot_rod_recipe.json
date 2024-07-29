@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:spladot_power"
+    },
+    "b": {
+      "item": "ranahiromod:soul_grief_ingot"
+    },
+    "c": {
+      "item": "ranahiromod:soul_ingot"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:spladot_rod",
+    "count": 1
+  }
+}

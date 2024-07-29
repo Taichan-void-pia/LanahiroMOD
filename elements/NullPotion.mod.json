@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Code-null",
+    "icon": "null_particle.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "NullPotionEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "NullPotionOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "NullPotionEffectExpires"
+    }
+  }
+}

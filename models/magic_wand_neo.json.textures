@@ -1,0 +1,39 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "magic_wand_preset2",
+        "2": "amethyst_cluster"
+      },
+      "name": "default"
+    },
+    "blaze": {
+      "map": {
+        "1": "magic_wand_preset2",
+        "2": "blaze_wand_crystal"
+      },
+      "name": "blaze"
+    },
+    "healing": {
+      "map": {
+        "1": "magic_wand_preset2",
+        "2": "healing_wand_crystal"
+      },
+      "name": "healing"
+    },
+    "over_healing": {
+      "map": {
+        "1": "magic_wand_preset2",
+        "2": "over_healing_wand_crystal"
+      },
+      "name": "over_healing"
+    },
+    "arrow": {
+      "map": {
+        "1": "magic_wand_preset2",
+        "2": "arrow_crystal"
+      },
+      "name": "arrow"
+    }
+  }
+}

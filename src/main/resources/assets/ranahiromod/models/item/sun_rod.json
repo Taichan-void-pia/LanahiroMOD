@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/sunload_lod",
+  "textures": {
+    "0": "ranahiromod:block/sunload_lod",
+    "particle": "ranahiromod:item/sunload_lod"
+  }
+}

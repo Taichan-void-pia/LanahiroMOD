@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "advancements.perks.title"
+    },
+    "description": {
+      "translate": "advancements.perks.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "perks_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "ranahiromod:welcome_ranahiro_world"
+}

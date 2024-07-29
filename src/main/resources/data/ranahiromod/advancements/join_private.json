@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bricks"
+    },
+    "title": {
+      "translate": "advancements.join_private.title"
+    },
+    "description": {
+      "translate": "advancements.join_private.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "join_private_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:get_crystals"
+}

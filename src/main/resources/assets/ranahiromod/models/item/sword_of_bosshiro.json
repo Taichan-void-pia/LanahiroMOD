@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/re_bosshiro_sword2",
+  "textures": {
+    "0": "ranahiromod:block/re_bosshiro_sword2",
+    "particle": "ranahiromod:item/pinkdiamondt_sword"
+  }
+}

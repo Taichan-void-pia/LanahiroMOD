@@ -1,0 +1,23 @@
+{
+  "_fv": 66,
+  "_type": "particle",
+  "definition": {
+    "texture": "smoke_wind2.png",
+    "animate": true,
+    "frameDuration": 3,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": {
+      "fixedValue": 2.5
+    },
+    "speedFactor": 1.0,
+    "gravity": 0.0,
+    "maxAge": 10,
+    "maxAgeDiff": 10,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": false,
+    "renderType": "TRANSLUCENT"
+  }
+}

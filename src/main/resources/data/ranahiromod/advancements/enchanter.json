@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "advancements.enchanter.title"
+    },
+    "description": {
+      "translate": "advancements.enchanter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enchanter_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:diamonds"
+}

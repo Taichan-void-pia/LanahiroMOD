@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "Items.IRON_BOOTS"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrystalArmorArmor.boots"
+    },
+    "name": "crystal_armor_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

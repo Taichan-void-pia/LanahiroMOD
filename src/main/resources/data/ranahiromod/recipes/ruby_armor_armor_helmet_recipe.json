@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:ruby"
+    },
+    "b": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:ruby_armor_armor_helmet",
+    "count": 1
+  }
+}

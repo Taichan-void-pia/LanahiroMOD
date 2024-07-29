@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Change Skill",
+    "keyBindingCategoryKey": "ranahiromod",
+    "onKeyPressed": {
+      "name": "ChangeSkillKey"
+    }
+  }
+}

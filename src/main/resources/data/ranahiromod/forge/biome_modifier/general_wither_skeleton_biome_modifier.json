@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "nether_wastes",
+    "crimson_forest",
+    "warped_forest",
+    "basalt_deltas"
+  ],
+  "spawners": {
+    "type": "ranahiromod:general_wither_skeleton",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

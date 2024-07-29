@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:pink_diamond"
+    },
+    "title": {
+      "translate": "advancements.get_pink_diamond.title"
+    },
+    "description": {
+      "translate": "advancements.get_pink_diamond.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_pink_diamond_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:get_rubies"
+}

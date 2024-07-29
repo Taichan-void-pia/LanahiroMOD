@@ -1,0 +1,8 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "ranahiromod:block/clear",
+    "particle": "ranahiromod:block/clear"
+  },
+  "render_type": "translucent"
+}

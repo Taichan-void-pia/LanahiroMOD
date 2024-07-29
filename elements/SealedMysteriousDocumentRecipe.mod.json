@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "CUSTOM:StrangeInk"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "CUSTOM:StrangeInk"
+      },
+      {
+        "value": "CUSTOM:MysteriousDocument"
+      },
+      {
+        "value": "CUSTOM:StrangeInk"
+      },
+      {
+        "value": "Blocks.AMETHYST_BLOCK"
+      },
+      {
+        "value": "CUSTOM:StrangeInk"
+      },
+      {
+        "value": "Blocks.AMETHYST_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SealedMysteriouDocument"
+    },
+    "name": "sealed_mysterious_document_recipe",
+    "namespace": "mod"
+  }
+}

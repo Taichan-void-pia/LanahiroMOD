@@ -1,0 +1,6 @@
+{
+  "parent": "ranahiromod:custom/wotahiro_trident2",
+  "textures": {
+    "particle": "ranahiromod:item/wotahiro_trident2"
+  }
+}

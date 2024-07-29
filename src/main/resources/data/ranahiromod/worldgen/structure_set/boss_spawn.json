@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ranahiromod:boss_spawn",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 31,
+    "separation": 30,
+    "salt": 240884950
+  }
+}

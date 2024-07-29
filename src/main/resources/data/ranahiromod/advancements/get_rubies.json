@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:ruby"
+    },
+    "title": {
+      "translate": "advancements.get_rubies.title"
+    },
+    "description": {
+      "translate": "advancements.get_rubies.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_rubies_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:adventures"
+}

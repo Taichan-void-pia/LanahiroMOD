@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/sweep_item_model",
+  "textures": {
+    "0": "ranahiromod:block/sweep_3",
+    "particle": "ranahiromod:item/sweep_3"
+  }
+}

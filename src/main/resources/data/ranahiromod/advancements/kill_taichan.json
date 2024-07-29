@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:taichan_bow"
+    },
+    "title": {
+      "translate": "advancements.kill_taichan.title"
+    },
+    "description": {
+      "translate": "advancements.kill_taichan.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_taichan_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:kill_bosshiro"
+}

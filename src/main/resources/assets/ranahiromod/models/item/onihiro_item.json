@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/onihiro_goldbar2",
+  "textures": {
+    "0": "ranahiromod:block/onihiro_goldbar2",
+    "particle": "ranahiromod:item/nature_kaze"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:groundhiro_item"
+    },
+    "title": {
+      "translate": "advancements.kill_groundhiro.title"
+    },
+    "description": {
+      "translate": "advancements.kill_groundhiro.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_groundhiro_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:kill_weaponhiro"
+}

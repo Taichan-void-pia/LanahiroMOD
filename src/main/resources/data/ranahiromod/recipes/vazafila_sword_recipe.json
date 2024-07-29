@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_block"
+    },
+    "b": {
+      "item": "ranahiromod:soul_ingot"
+    },
+    "c": {
+      "item": "ranahiromod:soul_grief_ingot"
+    },
+    "d": {
+      "item": "ranahiromod:vazafila_power"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:vazafila_sword",
+    "count": 1
+  }
+}

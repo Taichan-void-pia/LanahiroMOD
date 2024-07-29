@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:waterhiro_item"
+    },
+    "title": {
+      "translate": "advancements.kill_waterhiro.title"
+    },
+    "description": {
+      "translate": "advancements.kill_waterhiro.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_waterhiro_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:kill_lavahiro"
+}

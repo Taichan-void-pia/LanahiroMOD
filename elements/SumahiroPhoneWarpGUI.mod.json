@@ -1,0 +1,366 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 100,
+    "height": 205,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "iphone_gui.png",
+          "use1Xscale": false,
+          "x": 164,
+          "y": 18
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_iphone_button",
+          "image": "iphone_button.png",
+          "hoveredImage": "iphone_hover_button.png",
+          "onClick": {
+            "name": "SumahiroPhoneHomeButton"
+          },
+          "x": 207,
+          "y": 204
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_000",
+          "text": {
+            "fixedValue": "0:00"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 20
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation1"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_1.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation1"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation2"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation3"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation4"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation2"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation3"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation4"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_weather",
+          "text": {
+            "fixedValue": "warp"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 203,
+          "y": 28
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_home",
+          "text": "Home",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SumahiroPhonePlaceLink"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 191,
+          "y": 50
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_favoriteplace1",
+          "text": "FavoritePlace1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SumahiroPhonePlace1"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 165,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_favoriteplace2",
+          "text": "FavoritePlace2",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SumahiroPhonePlace2"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 165,
+          "y": 120
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_favoriteplace3",
+          "text": "FavoritePlace3",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SumahiroPhonePlace3"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 165,
+          "y": 148
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cross_close",
+          "image": "cross_close.png",
+          "hoveredImage": "cross_hover_close.png",
+          "onClick": {
+            "name": "SumahirPhonePositiondel1"
+          },
+          "displayCondition": {
+            "name": "PositionDelCondition1"
+          },
+          "x": 251,
+          "y": 72
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cross_close1",
+          "image": "cross_close.png",
+          "hoveredImage": "cross_hover_close.png",
+          "onClick": {
+            "name": "SumahirPhonePositiondel2"
+          },
+          "displayCondition": {
+            "name": "PositionDelCondition2"
+          },
+          "x": 251,
+          "y": 112
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cross_close2",
+          "image": "cross_close.png",
+          "hoveredImage": "cross_hover_close.png",
+          "onClick": {
+            "name": "SumahirPhonePositiondel3"
+          },
+          "displayCondition": {
+            "name": "PositionDelCondtion3"
+          },
+          "x": 251,
+          "y": 140
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cross_close3",
+          "image": "cross_close.png",
+          "hoveredImage": "cross_hover_close.png",
+          "onClick": {
+            "name": "SumahirPhonePositiondel4"
+          },
+          "displayCondition": {
+            "name": "PositionDelCondition4"
+          },
+          "x": 251,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_delete_position",
+          "text": {
+            "fixedValue": "Delete Position"
+          },
+          "color": {
+            "value": -154,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PositionDelCondition1"
+          },
+          "x": 168,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_delete_position1",
+          "text": {
+            "fixedValue": "Delete Position"
+          },
+          "color": {
+            "value": -154,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PositionDelCondition2"
+          },
+          "x": 168,
+          "y": 111
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_delete_position2",
+          "text": {
+            "fixedValue": "Delete Position"
+          },
+          "color": {
+            "value": -154,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PositionDelCondtion3"
+          },
+          "x": 168,
+          "y": 139
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_delete_position3",
+          "text": {
+            "fixedValue": "Delete Position"
+          },
+          "color": {
+            "value": -154,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PositionDelCondition4"
+          },
+          "x": 168,
+          "y": 168
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 14,
+      "sy": 14,
+      "ox": 21,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

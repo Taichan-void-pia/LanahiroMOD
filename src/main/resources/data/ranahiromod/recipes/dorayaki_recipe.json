@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "ranahiromod:red_beans_item"
+    },
+    "d": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:dorayaki",
+    "count": 1
+  }
+}

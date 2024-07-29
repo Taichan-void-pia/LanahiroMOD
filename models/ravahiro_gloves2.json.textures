@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "particle": "ravahiro_gloves2"
+      },
+      "name": "default"
+    }
+  }
+}

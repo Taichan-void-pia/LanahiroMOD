@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ranahiromod:block/windr_portal_ew"
+    },
+    "axis=x": {
+      "model": "ranahiromod:block/windr_portal_ns"
+    }
+  }
+}

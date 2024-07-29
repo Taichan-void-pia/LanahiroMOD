@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:riceball"
+    },
+    "title": {
+      "translate": "advancements.crafted_rice_ball.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_rice_ball.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_rice_ball_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:crafted_rice"
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "particle": "wotahiro_trident2"
+      },
+      "name": "default"
+    }
+  }
+}

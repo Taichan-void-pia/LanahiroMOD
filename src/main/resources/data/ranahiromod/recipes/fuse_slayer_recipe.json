@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond_block"
+    },
+    "b": {
+      "item": "ranahiromod:soul_ingot"
+    },
+    "c": {
+      "item": "ranahiromod:soul_grief_ingot"
+    },
+    "d": {
+      "item": "ranahiromod:sk_liner_5077_power"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:sk_liner_5077_blade",
+    "count": 1
+  }
+}

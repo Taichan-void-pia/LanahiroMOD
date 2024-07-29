@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "ranahiromod:mechanism_armor_boots",
+    "ranahiromod:ranahiro_plate_armor_boots",
+    "ranahiromod:emerald_armor_armor_boots",
+    "ranahiromod:topaz_tool_armor_boots",
+    "ranahiromod:crystal_armor_armor_boots",
+    "ranahiromod:sapphire_armor_armor_boots",
+    "ranahiromod:ruby_armor_armor_boots"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ranahiromod:weaponhiro_battle_base",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 20,
+    "salt": 2110095594
+  }
+}

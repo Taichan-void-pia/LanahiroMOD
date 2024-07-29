@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:ranahiro_ingot"
+    },
+    "b": {
+      "item": "minecraft:netherite_helmet"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:ranahiro_plate_armor_helmet",
+    "count": 1
+  }
+}

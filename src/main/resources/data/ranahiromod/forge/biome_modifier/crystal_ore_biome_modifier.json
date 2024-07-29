@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "ranahiromod:everest",
+  "features": "ranahiromod:crystal_ore",
+  "step": "underground_ores"
+}

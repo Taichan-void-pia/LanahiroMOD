@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ranahiromod:block/coal_block",
+    "particle": "ranahiromod:block/coal_block"
+  },
+  "render_type": "solid"
+}

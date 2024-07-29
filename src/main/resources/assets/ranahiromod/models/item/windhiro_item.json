@@ -1,0 +1,6 @@
+{
+  "parent": "ranahiromod:custom/widohiro_fan2",
+  "textures": {
+    "particle": "ranahiromod:item/widohiro_fan2"
+  }
+}

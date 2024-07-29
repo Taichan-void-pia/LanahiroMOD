@@ -1,0 +1,44 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "devilsword",
+    "customModelName": "wepohiro2_demon2:default",
+    "blockingModelName": "Normal blocking",
+    "name": "§8§lDevilSword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DoubleHiroInSumahiro"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 0.6,
+    "enchantability": 10,
+    "damageVsEntity": 18.0,
+    "usageCount": 5463,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "StartSkills"
+    },
+    "onItemInUseTick": {
+      "name": "ElderDragonSwordHandTick"
+    },
+    "onEntitySwing": {
+      "name": "SwingBase"
+    }
+  }
+}

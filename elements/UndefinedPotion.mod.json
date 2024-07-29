@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Code-undefined",
+    "icon": "undefined.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "UndefinedPotionEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "UndefinedPotionOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "UndefinedPotionEffectExpires"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/flashlights",
+  "textures": {
+    "0": "ranahiromod:block/flashlights",
+    "particle": "ranahiromod:item/honoo_hi_fire"
+  }
+}

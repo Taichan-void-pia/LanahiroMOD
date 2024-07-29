@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/wepohiro2",
+  "textures": {
+    "0": "ranahiromod:block/weaponhiro2",
+    "particle": "ranahiromod:item/wepohiro2"
+  }
+}

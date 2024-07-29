@@ -1,0 +1,148 @@
+{
+  "_fv": 66,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_entity_look_position_near_e",
+          "text": {
+            "fixedValue": "",
+            "name": "EntityLookPositionNearEntityName2"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "OverlayEntity"
+          },
+          "anchorPoint": "CENTER",
+          "x": 2,
+          "y": 2
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_entity_look_position_near_e1",
+          "text": {
+            "fixedValue": "",
+            "name": "EntityLookPositionNearEntityHealth"
+          },
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "OverlayEntity"
+          },
+          "anchorPoint": "CENTER",
+          "x": 10,
+          "y": 13
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_entity_look_position_near_e2",
+          "text": {
+            "fixedValue": "",
+            "name": "EntityLookPositionNearEntityArmorValue"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "OverlayEntity"
+          },
+          "anchorPoint": "CENTER",
+          "x": 10,
+          "y": 24
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "health_boost.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 1,
+          "y": 14
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "resistance.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 1,
+          "y": 25
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_entity_look_position_near_e3",
+          "text": {
+            "fixedValue": "",
+            "name": "EntityLookPositionNearEntityStrength"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "OverlayEntity"
+          },
+          "anchorPoint": "CENTER",
+          "x": 10,
+          "y": 36
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "strength.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 1,
+          "y": 36
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "EntityLookPositionNearEntityName"
+          },
+          "displayCondition": {
+            "name": "OverlayEntity"
+          },
+          "scale": 15,
+          "rotationX": 180,
+          "followMouseMovement": false,
+          "anchorPoint": "CENTER",
+          "x": 10,
+          "y": 50
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "LookEntityAttributeViewDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

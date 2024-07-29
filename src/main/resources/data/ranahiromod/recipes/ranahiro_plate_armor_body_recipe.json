@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:ranahiro_ingot"
+    },
+    "b": {
+      "item": "minecraft:netherite_chestplate"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:ranahiro_plate_armor_chestplate",
+    "count": 1
+  }
+}

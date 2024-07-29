@@ -1,0 +1,6 @@
+{
+  "parent": "ranahiromod:custom/taichan_arrow",
+  "textures": {
+    "particle": "ranahiromod:item/taichan_arrow"
+  }
+}

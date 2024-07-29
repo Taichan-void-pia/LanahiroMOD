@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+
+[[mods]]
+modId="ranahiromod"
+version="19.0"
+displayName="RanahiroMod"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Taichan_,Lanahiro,SKLiner_5077,Vazafila,Melamain0105, MCreator"
+description="Present for Lanahiro.   Are you ready?     Rest in hell! Bytaichan_"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ranahiromod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

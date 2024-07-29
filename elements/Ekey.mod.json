@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "E",
+    "keyBindingName": "a",
+    "keyBindingCategoryKey": "a",
+    "onKeyPressed": {
+      "name": "EkeyOnKeyPressed"
+    }
+  }
+}

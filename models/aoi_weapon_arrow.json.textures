@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "aoi_weapon"
+      },
+      "name": "default"
+    },
+    "aoi_weapon_bow_2": {
+      "map": {
+        "0": "aoi_weapon2"
+      },
+      "name": "aoi_weapon_bow_2"
+    }
+  }
+}

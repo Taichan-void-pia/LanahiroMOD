@@ -1,0 +1,36 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "pinkdiamond_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "PinkDiamond Axe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DoubleHiroInRanahiro"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 0.8,
+    "enchantability": 56,
+    "damageVsEntity": 36.0,
+    "usageCount": 1741,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PinkDiamond"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

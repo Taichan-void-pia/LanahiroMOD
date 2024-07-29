@@ -1,0 +1,8 @@
+{
+  "parent": "ranahiromod:custom/dragon_sword",
+  "textures": {
+    "1": "ranahiromod:block/nichirinsword_withoutblade_dragon",
+    "2": "ranahiromod:block/blade_dragon",
+    "particle": "ranahiromod:item/blade_dragon"
+  }
+}

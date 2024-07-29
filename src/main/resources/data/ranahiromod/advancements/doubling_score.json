@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chainmail_helmet"
+    },
+    "title": {
+      "translate": "advancements.doubling_score.title"
+    },
+    "description": {
+      "translate": "advancements.doubling_score.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "doubling_score_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:perks"
+}

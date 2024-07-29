@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/farion_sword",
+  "textures": {
+    "0": "ranahiromod:block/farion",
+    "particle": "ranahiromod:item/farion"
+  }
+}

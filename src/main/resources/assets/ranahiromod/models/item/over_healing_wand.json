@@ -1,0 +1,8 @@
+{
+  "parent": "ranahiromod:custom/magic_wand_neo",
+  "textures": {
+    "1": "ranahiromod:block/magic_wand_preset2",
+    "2": "ranahiromod:block/over_healing_wand_crystal",
+    "particle": "ranahiromod:item/healing_wand"
+  }
+}

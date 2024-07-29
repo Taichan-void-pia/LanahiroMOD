@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:ranazmanium_ingot"
+    },
+    "b": {
+      "item": "ranahiromod:ranahiro_plate_armor_boots"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:mechanism_armor_boots",
+    "count": 1
+  }
+}

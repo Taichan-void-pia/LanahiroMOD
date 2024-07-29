@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/photon_sword",
+  "textures": {
+    "0": "ranahiromod:block/valzefas2",
+    "particle": "ranahiromod:item/valzefas2"
+  }
+}

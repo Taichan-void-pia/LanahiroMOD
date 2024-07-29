@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_bed"
+    },
+    "title": {
+      "translate": "advancements.passing_the_time.title"
+    },
+    "description": {
+      "translate": "advancements.passing_the_time.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "passing_the_time_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:taking_inventory"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:ruby"
+    },
+    "b": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:ruby_armor_armor_leggings",
+    "count": 1
+  }
+}

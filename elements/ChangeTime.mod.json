@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Code-time",
+    "icon": "changetime.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "ChangeTimeEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "ChangeTimeOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "TargetPlayerEffectExpires"
+    }
+  }
+}

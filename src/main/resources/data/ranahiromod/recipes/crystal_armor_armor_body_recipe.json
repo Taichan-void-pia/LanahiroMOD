@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:crystal"
+    },
+    "b": {
+      "item": "minecraft:iron_chestplate"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:crystal_armor_armor_chestplate",
+    "count": 1
+  }
+}

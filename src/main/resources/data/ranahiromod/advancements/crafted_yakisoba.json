@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:okonomiyaki_2"
+    },
+    "title": {
+      "translate": "advancements.crafted_yakisoba.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_yakisoba.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_yakisoba_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:crafted_okonomiyaki"
+}

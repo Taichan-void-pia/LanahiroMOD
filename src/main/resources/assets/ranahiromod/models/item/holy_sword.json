@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/wepohiro2_holy2",
+  "textures": {
+    "0": "ranahiromod:block/wepohiro2_holy",
+    "particle": "ranahiromod:item/holysword"
+  }
+}

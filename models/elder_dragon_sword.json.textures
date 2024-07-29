@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "elder_dragon_sword",
+        "2": "elder_dragon_sword2"
+      },
+      "name": "default"
+    }
+  }
+}

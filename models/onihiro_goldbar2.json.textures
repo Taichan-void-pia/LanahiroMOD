@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "onihiro_goldbar2"
+      },
+      "name": "default"
+    }
+  }
+}

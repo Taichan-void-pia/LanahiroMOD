@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "X",
+    "keyBindingName": "Pocket Enchant Key",
+    "keyBindingCategoryKey": "ranahiromod",
+    "onKeyPressed": {
+      "name": "EnchantPerk"
+    }
+  }
+}

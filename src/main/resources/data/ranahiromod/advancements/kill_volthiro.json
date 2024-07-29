@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:bolthiro_item"
+    },
+    "title": {
+      "translate": "advancements.kill_volthiro.title"
+    },
+    "description": {
+      "translate": "advancements.kill_volthiro.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_volthiro_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:kill_demonhiro"
+}

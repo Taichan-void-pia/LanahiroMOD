@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bab",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:soul_grief_ingot"
+    },
+    "b": {
+      "item": "ranahiromod:pink_diamond"
+    },
+    "c": {
+      "item": "ranahiromod:soul_ingot"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:soul_grief_sword",
+    "count": 1
+  }
+}

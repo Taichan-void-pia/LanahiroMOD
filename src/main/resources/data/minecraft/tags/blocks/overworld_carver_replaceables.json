@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:grass_block",
+    "minecraft:sculk",
+    "minecraft:warped_hyphae",
+    "minecraft:raw_gold_block",
+    "minecraft:redstone_block",
+    "minecraft:gravel",
+    "minecraft:mycelium",
+    "minecraft:white_wool",
+    "minecraft:lime_wool",
+    "minecraft:lapis_block",
+    "minecraft:netherrack",
+    "minecraft:stone",
+    "minecraft:diamond_block",
+    "minecraft:gold_block"
+  ]
+}

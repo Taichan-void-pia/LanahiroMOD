@@ -1,0 +1,6 @@
+{
+  "parent": "ranahiromod:custom/ravahiro_gloves",
+  "textures": {
+    "particle": "ranahiromod:item/drahironail"
+  }
+}

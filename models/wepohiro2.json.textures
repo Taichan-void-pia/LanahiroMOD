@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "weaponhiro2"
+      },
+      "name": "default"
+    }
+  }
+}

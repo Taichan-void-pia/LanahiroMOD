@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ranahiromod:soul_block"
+    },
+    {
+      "item": "ranahiromod:soul_block"
+    },
+    {
+      "item": "ranahiromod:soul_block"
+    },
+    {
+      "item": "ranahiromod:soul_block"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "ranahiromod:soul_block"
+    },
+    {
+      "item": "ranahiromod:soul_block"
+    },
+    {
+      "item": "ranahiromod:soul_block"
+    },
+    {
+      "item": "ranahiromod:soul_block"
+    }
+  ],
+  "result": {
+    "item": "ranahiromod:soul_ingot",
+    "count": 1
+  }
+}

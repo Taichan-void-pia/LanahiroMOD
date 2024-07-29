@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ranahiromod:topaz_tool_shovel",
+    "ranahiromod:crystal_tool_shovel",
+    "ranahiromod:pink_diamondt_shovel",
+    "ranahiromod:sapphire_tool_shovel",
+    "ranahiromod:ruby_tool_shovel"
+  ]
+}

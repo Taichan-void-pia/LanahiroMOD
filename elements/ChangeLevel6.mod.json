@@ -1,0 +1,7 @@
+{
+  "_fv": 66,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"level\" type=\"Number\">level</variable></variables><block deletable=\"false\" type=\"event_trigger\" x=\"84\" y=\"77\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_nbt_num_set\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"tagName\"><block type=\"text\"><field name=\"TEXT\">level</field></block></value><value name=\"tagValue\"><block type=\"variables_get_number\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" has_entity=\"true\" is_player_var=\"true\"/><field name=\"VAR\">global:speed</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><next><block type=\"call_procedure\"><field name=\"procedure\">SpeedUP</field></block></next></block></next></block></xml>"
+  }
+}

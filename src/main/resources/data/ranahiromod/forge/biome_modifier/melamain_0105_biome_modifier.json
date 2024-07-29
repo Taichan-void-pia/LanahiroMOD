@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "ranahiromod:melamain_0105",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

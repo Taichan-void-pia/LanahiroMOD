@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "ranahiromod:rice_plant_stage_4",
+  "step": "vegetal_decoration"
+}

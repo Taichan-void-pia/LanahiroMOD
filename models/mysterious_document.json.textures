@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mysterious_document",
+        "1": "mysterious_document_1",
+        "2": "mysterious_document_2",
+        "3": "mysterious_document_3",
+        "4": "mysterious_document_4"
+      },
+      "name": "default"
+    }
+  }
+}

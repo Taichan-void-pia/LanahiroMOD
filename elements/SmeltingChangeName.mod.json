@@ -1,0 +1,7 @@
+{
+  "_fv": 66,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"star_rarity_num\" type=\"Number\">star_rarity_num</variable><variable id=\"name\" type=\"String\">name</variable><variable id=\"rare_name_section\" type=\"String\">rare_name_section</variable></variables><block deletable=\"false\" type=\"event_trigger\" x=\"12\" y=\"2\"><field name=\"trigger\">item_smelted</field></block><block type=\"call_procedure\" x=\"24\" y=\"131\"><field name=\"procedure\">RarityChangeName</field></block><block type=\"variables_get_string\" x=\"778\" y=\"515\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" has_entity=\"false\" is_player_var=\"false\"/><field name=\"VAR\">local:rare_name_section</field></block></xml>"
+  }
+}

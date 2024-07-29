@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ranahiromod:wind_magic_2"
+    }
+  ],
+  "result": {
+    "item": "ranahiromod:wind_magic",
+    "count": 1
+  }
+}

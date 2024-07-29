@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/mothii_hunmer2",
+  "textures": {
+    "0": "ranahiromod:block/mothii_hunmer2",
+    "particle": "ranahiromod:item/mothii_hunmer2"
+  }
+}

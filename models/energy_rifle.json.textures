@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "anvil",
+        "1": "bedrock",
+        "2": "coal_block",
+        "3": "diamond_block",
+        "4": "frosted_ice_0",
+        "5": "observer_side",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

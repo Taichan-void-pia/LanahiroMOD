@@ -1,0 +1,6 @@
+{
+  "parent": "ranahiromod:custom/dorahiro_neiru2",
+  "textures": {
+    "particle": "ranahiromod:item/dorahiro_neiru2"
+  }
+}

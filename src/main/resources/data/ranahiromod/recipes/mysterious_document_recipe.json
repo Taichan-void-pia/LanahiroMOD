@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "b": {
+      "item": "ranahiromod:strange_ink"
+    },
+    "c": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:mysterious_document",
+    "count": 1
+  }
+}

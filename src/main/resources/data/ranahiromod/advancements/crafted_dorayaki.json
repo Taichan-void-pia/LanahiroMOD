@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:dorayaki"
+    },
+    "title": {
+      "translate": "advancements.crafted_dorayaki.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_dorayaki.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_dorayaki_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:crafted_mochi"
+}

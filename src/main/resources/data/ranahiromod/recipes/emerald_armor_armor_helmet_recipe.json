@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "minecraft:emerald_block"
+    },
+    "c": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:emerald_armor_armor_helmet",
+    "count": 1
+  }
+}

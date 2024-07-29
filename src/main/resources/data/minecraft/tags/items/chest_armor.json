@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "ranahiromod:mechanism_armor_chestplate",
+    "ranahiromod:ranahiro_plate_armor_chestplate",
+    "ranahiromod:emerald_armor_armor_chestplate",
+    "ranahiromod:topaz_tool_armor_chestplate",
+    "ranahiromod:bosshiro_2_wing_chestplate",
+    "ranahiromod:dragonhiro_wing_chestplate",
+    "ranahiromod:crystal_armor_armor_chestplate",
+    "ranahiromod:sapphire_armor_armor_chestplate",
+    "ranahiromod:ruby_armor_armor_chestplate"
+  ]
+}

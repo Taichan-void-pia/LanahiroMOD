@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RanazmaniumIngot"
+      },
+      {
+        "value": "CUSTOM:RanazmaniumIngot"
+      },
+      {
+        "value": "CUSTOM:RanazmaniumIngot"
+      },
+      {
+        "value": "CUSTOM:RanazmaniumIngot"
+      },
+      {
+        "value": "CUSTOM:RanahiroPlateArmor.legs"
+      },
+      {
+        "value": "CUSTOM:RanazmaniumIngot"
+      },
+      {
+        "value": "CUSTOM:RanazmaniumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RanazmaniumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MechanismArmor.legs"
+    },
+    "name": "mechanism_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

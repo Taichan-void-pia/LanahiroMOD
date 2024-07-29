@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Domain Expansion",
+    "icon": "rotationyach.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "DomainExpansionEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "DomainExpansionOnEffectActiveTick"
+    }
+  }
+}

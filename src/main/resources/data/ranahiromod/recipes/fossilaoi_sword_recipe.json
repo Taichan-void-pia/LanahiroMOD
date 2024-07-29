@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald_block"
+    },
+    "b": {
+      "item": "ranahiromod:soul_ingot"
+    },
+    "c": {
+      "item": "ranahiromod:soul_grief_ingot"
+    },
+    "d": {
+      "item": "ranahiromod:fossilaoipower"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:fossilaoi_sword_item",
+    "count": 1
+  }
+}

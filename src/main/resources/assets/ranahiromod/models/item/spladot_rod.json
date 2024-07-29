@@ -1,0 +1,6 @@
+{
+  "parent": "ranahiromod:custom/supuradot_cane",
+  "textures": {
+    "particle": "ranahiromod:item/supuradot_cane"
+  }
+}

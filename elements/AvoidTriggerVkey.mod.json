@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "V",
+    "keyBindingName": "Avoid",
+    "keyBindingCategoryKey": "ranahiromod",
+    "onKeyPressed": {
+      "name": "AvoidTriggerVkeyOnKeyPressed"
+    }
+  }
+}

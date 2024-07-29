@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "ranahiromod:epic_down_creeper",
+    "weight": 5,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

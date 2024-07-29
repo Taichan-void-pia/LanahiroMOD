@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/divine_ranaforce",
+  "textures": {
+    "0": "ranahiromod:block/divine_ranaforce",
+    "particle": "ranahiromod:item/pinkdiamondt_sword"
+  }
+}

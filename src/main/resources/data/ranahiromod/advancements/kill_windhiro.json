@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:windhiro_item"
+    },
+    "title": {
+      "translate": "advancements.kill_windhiro.title"
+    },
+    "description": {
+      "translate": "advancements.kill_windhiro.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_windhiro_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:kill_waterhiro"
+}

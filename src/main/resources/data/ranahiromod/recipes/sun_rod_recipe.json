@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:spladot_power"
+    },
+    "b": {
+      "item": "minecraft:stripped_oak_wood"
+    },
+    "c": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:sun_rod",
+    "count": 1
+  }
+}

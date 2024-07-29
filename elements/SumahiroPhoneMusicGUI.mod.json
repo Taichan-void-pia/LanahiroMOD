@@ -1,0 +1,246 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 100,
+    "height": 205,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "iphone_gui.png",
+          "use1Xscale": false,
+          "x": 164,
+          "y": 18
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_iphone_button",
+          "image": "iphone_button.png",
+          "hoveredImage": "iphone_hover_button.png",
+          "onClick": {
+            "name": "SumahiroPhoneHomeButton"
+          },
+          "x": 207,
+          "y": 204
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_000",
+          "text": {
+            "fixedValue": "0:00"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 20
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation1"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_1.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation1"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation2"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation3"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation4"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation2"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation3"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation4"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_weather",
+          "text": {
+            "fixedValue": "music"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 200,
+          "y": 29
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "MusicID ex:)minecraft:music_disc.11",
+          "name": "music_name",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 64
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_play_button",
+          "image": "play_button.png",
+          "hoveredImage": "play_button2.png",
+          "onClick": {
+            "name": "SumahiroPhoneMusicPlay"
+          },
+          "displayCondition": {
+            "name": "SumahiroPhoneMusicCondition"
+          },
+          "x": 210,
+          "y": 180
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_pause_button",
+          "image": "pause_button.png",
+          "hoveredImage": "pause_button2.png",
+          "onClick": {
+            "name": "SumahiroPhoneMusicPlay"
+          },
+          "displayCondition": {
+            "name": "SumahiroPhoneMusicCondition1"
+          },
+          "x": 210,
+          "y": 180
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "MusicType ex:)ambient",
+          "name": "music_type",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 92
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Volume(0~)",
+          "name": "music_volume",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 120
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Pitch(0~2)",
+          "name": "music_pitch",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 148
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 14,
+      "sy": 14,
+      "ox": 21,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

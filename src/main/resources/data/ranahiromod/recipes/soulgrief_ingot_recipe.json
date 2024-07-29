@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "ranahiromod:over_hardened_stone"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "ranahiromod:over_hardened_stone"
+    },
+    {
+      "item": "ranahiromod:soul_ingot"
+    },
+    {
+      "item": "ranahiromod:over_hardened_stone"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "ranahiromod:over_hardened_stone"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "item": "ranahiromod:soul_grief_ingot",
+    "count": 1
+  }
+}

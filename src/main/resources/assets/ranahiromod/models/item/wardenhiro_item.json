@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/wadehiro_megaphone2",
+  "textures": {
+    "0": "ranahiromod:block/wadehiro_megaphone2",
+    "particle": "ranahiromod:item/wadehiro_megaphone"
+  }
+}

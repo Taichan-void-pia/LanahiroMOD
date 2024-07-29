@@ -1,0 +1,13 @@
+{
+  "parent": "ranahiromod:custom/energy_rifle",
+  "textures": {
+    "0": "ranahiromod:block/anvil",
+    "1": "ranahiromod:block/bedrock",
+    "2": "ranahiromod:block/coal_block",
+    "3": "ranahiromod:block/diamond_block",
+    "4": "ranahiromod:block/frosted_ice_0",
+    "5": "ranahiromod:block/observer_side",
+    "missing": "ranahiromod:block/",
+    "particle": "ranahiromod:item/pinkdiamondt_sword"
+  }
+}

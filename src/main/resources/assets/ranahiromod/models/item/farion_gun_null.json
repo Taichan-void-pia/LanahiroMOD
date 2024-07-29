@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/farion_gun",
+  "textures": {
+    "0": "ranahiromod:block/null",
+    "particle": "ranahiromod:item/sapphire_sword"
+  }
+}

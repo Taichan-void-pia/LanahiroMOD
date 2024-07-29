@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/wind_magic",
+  "textures": {
+    "0": "ranahiromod:block/windmagic",
+    "particle": "ranahiromod:item/windmagic"
+  }
+}

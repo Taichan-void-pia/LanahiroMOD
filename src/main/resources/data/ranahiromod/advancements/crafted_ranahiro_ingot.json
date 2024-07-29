@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:ranahiro_ingot"
+    },
+    "title": {
+      "translate": "advancements.crafted_ranahiro_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_ranahiro_ingot.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_ranahiro_ingot_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:crafted_soul_grief_ingot"
+}

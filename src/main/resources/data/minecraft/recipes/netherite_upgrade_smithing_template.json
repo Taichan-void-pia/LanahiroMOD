@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:air_bariier"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherite_upgrade_smithing_template",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot"
+    },
+    "title": {
+      "translate": "advancements.carrot_pickup_1000.title"
+    },
+    "description": {
+      "translate": "advancements.carrot_pickup_1000.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "carrot_pickup_1000_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:pig_kill_100"
+}

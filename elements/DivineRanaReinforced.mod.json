@@ -1,0 +1,35 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "pinkdiamondt_sword",
+    "customModelName": "phoenix_bosshiro_sword2:default",
+    "blockingModelName": "Normal blocking",
+    "name": "DivineRanareinforced",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DoubleHiroInSumahiro"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 1.6,
+    "enchantability": 10,
+    "damageVsEntity": 35.0,
+    "usageCount": 5463,
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntitySwing": {
+      "name": "SwingPhoenixhiro"
+    }
+  }
+}

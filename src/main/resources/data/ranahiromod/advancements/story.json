@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:lavahiro_item"
+    },
+    "title": {
+      "translate": "advancements.story.title"
+    },
+    "description": {
+      "translate": "advancements.story.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "story_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "ranahiromod:welcome_ranahiro_world"
+}

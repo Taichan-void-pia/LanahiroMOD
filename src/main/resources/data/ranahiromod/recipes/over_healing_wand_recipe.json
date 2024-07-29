@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    " ca",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bedrock"
+    },
+    "b": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "c": {
+      "item": "ranahiromod:large_healing_wand"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:over_healing_wand",
+    "count": 1
+  }
+}

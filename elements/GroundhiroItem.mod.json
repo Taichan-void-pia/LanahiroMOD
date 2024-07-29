@@ -1,0 +1,38 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "gurahiro_axe2",
+    "customModelName": "gurahiro_axe2:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Groundhiro Axe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DoubleHiroInSumahiro"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 1.6,
+    "enchantability": 10,
+    "damageVsEntity": 18.0,
+    "usageCount": 5463,
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "StartSkills"
+    },
+    "onEntitySwing": {
+      "name": "SwingBase"
+    }
+  }
+}

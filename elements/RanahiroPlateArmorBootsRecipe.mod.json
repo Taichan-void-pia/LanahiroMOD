@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RanahiroIngot"
+      },
+      {
+        "value": "Items.NETHERITE_BOOTS"
+      },
+      {
+        "value": "CUSTOM:RanahiroIngot"
+      },
+      {
+        "value": "CUSTOM:RanahiroIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RanahiroIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RanahiroPlateArmor.boots"
+    },
+    "name": "ranahiro_plate_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

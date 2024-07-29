@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "nichirinsword_withoutblade",
+        "3": "blade_normal",
+        "4": "youtou_particle",
+        "5": "yamikun"
+      },
+      "name": "default"
+    }
+  }
+}

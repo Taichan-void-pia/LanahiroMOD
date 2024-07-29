@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sign"
+    },
+    "title": {
+      "translate": "advancements.its_a_sign.title"
+    },
+    "description": {
+      "translate": "advancements.its_a_sign.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "its_a_sign_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_sign"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "ranahiromod:getting_wood"
+}

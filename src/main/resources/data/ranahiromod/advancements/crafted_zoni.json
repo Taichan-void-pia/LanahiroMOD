@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:zoni"
+    },
+    "title": {
+      "translate": "advancements.crafted_zoni.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_zoni.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_zoni_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:crafted_mochi"
+}

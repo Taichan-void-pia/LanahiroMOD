@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:topaz"
+    },
+    "title": {
+      "translate": "advancements.get_topaz.title"
+    },
+    "description": {
+      "translate": "advancements.get_topaz.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_topaz_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:get_sapphires"
+}

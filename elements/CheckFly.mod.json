@@ -1,0 +1,10 @@
+{
+  "_fv": 66,
+  "_type": "command",
+  "definition": {
+    "commandName": "checkfly",
+    "type": "STANDARD",
+    "permissionLevel": "2",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"156\" y=\"151\"><next><block type=\"call_procedure\"><field name=\"procedure\">CheckflyCMD</field></block></next></block></xml>"
+  }
+}

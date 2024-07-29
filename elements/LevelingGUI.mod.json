@@ -1,0 +1,296 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 100,
+    "height": 205,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "iphone_gui.png",
+          "use1Xscale": false,
+          "x": 164,
+          "y": 18
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_kbresitance",
+          "text": "KBResitance",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ChangeLevel5"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 174,
+          "y": 155
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_attackspeed",
+          "text": "AttackSpeed",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ChangeLevel4"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 174,
+          "y": 127
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_strength",
+          "text": "Strength",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ChangeLevel3"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 174,
+          "y": 99
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_defense",
+          "text": "Defense",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ChangeLevel2"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 174,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_health",
+          "text": "Health",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ChangeLevel"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 174,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_speed",
+          "text": "Speed",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ChangeLevel6"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 174,
+          "y": 183
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_leveling",
+          "text": {
+            "fixedValue": "Leveling"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 193,
+          "y": 29
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "health_boost.png",
+          "use1Xscale": false,
+          "x": 235,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "resistance.png",
+          "use1Xscale": false,
+          "x": 237,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "strength.png",
+          "use1Xscale": false,
+          "x": 244,
+          "y": 99
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "speed.png",
+          "use1Xscale": false,
+          "x": 230,
+          "y": 183
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_iphone_button",
+          "image": "iphone_button.png",
+          "hoveredImage": "iphone_hover_button.png",
+          "onClick": {
+            "name": "SumahiroPhoneHomeButton"
+          },
+          "x": 207,
+          "y": 204
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_000",
+          "text": {
+            "fixedValue": "0:00"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 20
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation1"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_1.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation1"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation2"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation3"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation4"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation2"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation3"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation4"
+          },
+          "x": 247,
+          "y": 22
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 14,
+      "sy": 14,
+      "ox": 21,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

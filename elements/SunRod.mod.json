@@ -1,0 +1,41 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "sunload_lod",
+    "customModelName": "sunload_lod:default",
+    "blockingModelName": "Normal blocking",
+    "name": "SunRod",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DoubleHiroInThirdhiro"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 3.0,
+    "enchantability": 12,
+    "damageVsEntity": 5.0,
+    "usageCount": 0,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "StartSkills"
+    },
+    "onEntitySwing": {
+      "name": "SwingBase"
+    }
+  }
+}

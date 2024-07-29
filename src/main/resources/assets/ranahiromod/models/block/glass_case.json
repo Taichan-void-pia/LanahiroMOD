@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ranahiromod:block/glass",
+    "particle": "ranahiromod:block/glass"
+  },
+  "render_type": "cutout"
+}

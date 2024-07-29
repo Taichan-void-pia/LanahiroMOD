@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "bcc",
+    " de"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond_block"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:iron_block"
+    },
+    "d": {
+      "item": "ranahiromod:sapphire_tool_sword"
+    },
+    "e": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:energy_rifle",
+    "count": 1
+  }
+}

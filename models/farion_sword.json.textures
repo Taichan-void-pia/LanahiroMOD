@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "farion"
+      },
+      "name": "default"
+    },
+    "null_farion": {
+      "map": {
+        "0": "null"
+      },
+      "name": "null_farion"
+    }
+  }
+}

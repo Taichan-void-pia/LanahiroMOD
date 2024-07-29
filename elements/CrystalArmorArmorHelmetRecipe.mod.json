@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "Items.IRON_HELMET"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrystalArmorArmor.helmet"
+    },
+    "name": "crystal_armor_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

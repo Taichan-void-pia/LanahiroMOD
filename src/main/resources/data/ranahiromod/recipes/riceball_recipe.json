@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:rice_item"
+    },
+    "b": {
+      "item": "ranahiromod:nori"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:riceball",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "title": {
+      "translate": "advancements.old_achivement.title"
+    },
+    "description": {
+      "translate": "advancements.old_achivement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "old_achivement_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "ranahiromod:welcome_ranahiro_world"
+}

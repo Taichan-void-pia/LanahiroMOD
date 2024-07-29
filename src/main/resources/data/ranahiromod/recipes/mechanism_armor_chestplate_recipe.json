@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:ranazmanium_ingot"
+    },
+    "b": {
+      "item": "minecraft:elytra"
+    },
+    "c": {
+      "item": "ranahiromod:ranahiro_plate_armor_chestplate"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:mechanism_armor_chestplate",
+    "count": 1
+  }
+}

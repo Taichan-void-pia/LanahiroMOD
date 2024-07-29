@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "ranahiromod:block/rice_plant_stage4",
+    "particle": "ranahiromod:block/rice_plant_stage4"
+  },
+  "render_type": "cutout"
+}

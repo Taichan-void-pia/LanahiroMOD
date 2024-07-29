@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mangrove_log",
+        "2": "glass_large"
+      },
+      "name": "default"
+    }
+  }
+}

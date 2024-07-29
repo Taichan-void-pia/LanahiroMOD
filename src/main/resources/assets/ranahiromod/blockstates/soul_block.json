@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ranahiromod:block/soul_block"
+    },
+    "facing=east": {
+      "model": "ranahiromod:block/soul_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ranahiromod:block/soul_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ranahiromod:block/soul_block",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "ranahiromod:block/soul_block",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "ranahiromod:block/soul_block",
+      "x": 90
+    }
+  }
+}

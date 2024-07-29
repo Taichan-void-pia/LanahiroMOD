@@ -1,0 +1,97 @@
+{
+  "_fv": 66,
+  "_type": "biome",
+  "definition": {
+    "name": "EverestNeo",
+    "groundBlock": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.GOLD_BLOCK"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:VoidParticle"
+    },
+    "particlesProbability": 0.0,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -2.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -2.0,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": -2.0,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -2.0,
+      "max": 1.0
+    },
+    "genWeirdness": {
+      "min": -2.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}

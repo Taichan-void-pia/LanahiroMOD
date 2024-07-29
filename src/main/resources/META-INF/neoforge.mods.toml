@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="ranahiromod"
+version="19.0"
+displayName="RanahiroMod"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Taichan_,Lanahiro,SKLiner_5077,Vazafila,Melamain0105, MCreator"
+description="Present for Lanahiro"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ranahiromod]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.6.117,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ranahiromod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.6]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

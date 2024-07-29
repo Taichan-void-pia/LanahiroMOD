@@ -1,0 +1,6 @@
+{
+  "parent": "ranahiromod:custom/sumahiro_phone",
+  "textures": {
+    "particle": "ranahiromod:item/sumahiro_phone2"
+  }
+}

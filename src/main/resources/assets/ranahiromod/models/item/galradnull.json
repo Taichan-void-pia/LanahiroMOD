@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/galrad",
+  "textures": {
+    "0": "ranahiromod:block/null",
+    "particle": "ranahiromod:item/null"
+  }
+}

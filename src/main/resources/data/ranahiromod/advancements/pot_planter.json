@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flower_pot"
+    },
+    "title": {
+      "translate": "advancements.pot_planter.title"
+    },
+    "description": {
+      "translate": "advancements.pot_planter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pot_planter_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flower_pot"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "ranahiromod:time_to_farm"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:topaz"
+    },
+    "b": {
+      "item": "minecraft:diamond_leggings"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:topaz_tool_armor_leggings",
+    "count": 1
+  }
+}

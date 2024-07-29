@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "Double Jump Key",
+    "keyBindingCategoryKey": "ranahiromod",
+    "onKeyPressed": {
+      "name": "DoubleJumpPerk"
+    }
+  }
+}

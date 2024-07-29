@@ -1,0 +1,35 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "mothii_hunmer2",
+    "customModelName": "mothii_hunmer2:default",
+    "blockingModelName": "Normal blocking",
+    "name": "mottie's Hammer",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DoubleHiroInSumahiro"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 1.0,
+    "enchantability": 10,
+    "damageVsEntity": 12.0,
+    "usageCount": 5463,
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "StartSkills"
+    }
+  }
+}

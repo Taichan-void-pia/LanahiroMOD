@@ -1,0 +1,308 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 100,
+    "height": 205,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "iphone_gui.png",
+          "use1Xscale": false,
+          "x": 164,
+          "y": 18
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_iphone_button",
+          "image": "iphone_button.png",
+          "hoveredImage": "iphone_hover_button.png",
+          "onClick": {
+            "name": "CloseButton"
+          },
+          "x": 207,
+          "y": 204
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_app_music",
+          "image": "app_music.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "MusicGUIOpen"
+          },
+          "x": 179,
+          "y": 162
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_app_notes",
+          "image": "app_notes.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "NoteGUIOpen"
+          },
+          "x": 207,
+          "y": 106
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_app_warp",
+          "image": "app_warp.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "WarpGUIOpen"
+          },
+          "x": 207,
+          "y": 134
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_leveling_app",
+          "image": "leveling_app.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "SumahiroPhoneRightClick"
+          },
+          "x": 179,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_music",
+          "text": {
+            "fixedValue": "music"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 174,
+          "y": 178
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_note",
+          "text": {
+            "fixedValue": "note"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 206,
+          "y": 122
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warp",
+          "text": {
+            "fixedValue": "warp"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 204,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_level",
+          "text": {
+            "fixedValue": "level"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 174,
+          "y": 150
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_app_weather",
+          "image": "app_weather.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "WeatherGUIOpen"
+          },
+          "x": 179,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_weather",
+          "text": {
+            "fixedValue": "weather"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 122
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "GUIPlayerModel"
+          },
+          "scale": 30,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation1"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_1.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation1"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_000",
+          "text": {
+            "fixedValue": "0:00"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 20
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation2"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation3"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation4"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation2"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation3"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation4"
+          },
+          "x": 247,
+          "y": 22
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 14,
+      "sy": 14,
+      "ox": 21,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

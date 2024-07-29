@@ -1,0 +1,109 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_1pezimu_si_womotarasuzhou_wen",
+          "text": "1ページ目:死をもたらす呪文",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MysteriousDocumentPage1"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 164,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "???"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 202,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_2pezimu_jiao_tu_nizhui_titali_shi",
+          "text": "2ページ目:焦土に墜ちた歴史",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MysteriousDocumentPage2"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 164,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_3pezimu_di_nodi_heyin_kizhe_riip_mucha_hui",
+          "text": "3ページ目:地の底へ引き摺り込む挿絵",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MysteriousDocumentPage3TickStart"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 153,
+          "y": 119
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_4pezimu_shui_kanoyi_shu_toqi_yue_shu",
+          "text": "4ページ目:誰かの遺書と契約書",
+          "isUndecorated": false,
+          "width": 103,
+          "height": 20,
+          "x": 164,
+          "y": 151
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ben_wobi_ziru",
+          "text": "本を閉じる",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CloseButton"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 178
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 15,
+      "sy": 15,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

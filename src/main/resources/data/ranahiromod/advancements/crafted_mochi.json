@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:mochi"
+    },
+    "title": {
+      "translate": "advancements.crafted_mochi.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_mochi.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_mochi_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:crafted_rice"
+}

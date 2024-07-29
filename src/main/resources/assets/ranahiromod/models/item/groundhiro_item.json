@@ -1,0 +1,6 @@
+{
+  "parent": "ranahiromod:custom/gurahiro_axe2",
+  "textures": {
+    "particle": "ranahiromod:item/gurahiro_axe2"
+  }
+}

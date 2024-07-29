@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "pinkdiamondt_sword",
+    "customModelName": "sword_of_bosshiro:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Ranahiro Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DoubleHiroInSumahiro"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 1.6,
+    "enchantability": 10,
+    "damageVsEntity": 35.0,
+    "usageCount": 5463,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "StartSkills"
+    },
+    "onEntitySwing": {
+      "name": "SwingRanahiro"
+    }
+  }
+}

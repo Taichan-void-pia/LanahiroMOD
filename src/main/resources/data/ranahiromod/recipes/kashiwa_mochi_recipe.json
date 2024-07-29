@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:azalea_leaves"
+    },
+    {
+      "item": "ranahiromod:mochi"
+    }
+  ],
+  "result": {
+    "item": "ranahiromod:kashiwa_mochi",
+    "count": 1
+  }
+}

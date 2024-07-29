@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:wardenhiro_item"
+    },
+    "title": {
+      "translate": "advancements.kill_wardenhiro.title"
+    },
+    "description": {
+      "translate": "advancements.kill_wardenhiro.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_wardenhiro_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:kill_volthiro"
+}

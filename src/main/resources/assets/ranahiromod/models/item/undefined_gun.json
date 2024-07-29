@@ -1,0 +1,8 @@
+{
+  "parent": "ranahiromod:custom/undefined_gun",
+  "textures": {
+    "0": "ranahiromod:block/kenjuhyoumen",
+    "1": "ranahiromod:block/kenjuhyoumen2",
+    "particle": "ranahiromod:item/nanka"
+  }
+}

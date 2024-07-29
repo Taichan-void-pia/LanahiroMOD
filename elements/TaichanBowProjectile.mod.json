@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.ARROW"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": true,
+    "power": 1.0,
+    "damage": 1.0,
+    "knockback": 3,
+    "entityModel": "Modelarrow_taichan",
+    "customModelTexture": "arrow_29_je2.png",
+    "onHitsEntity": {
+      "name": "TaichanBowHitEntity"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/volhiro_knife2",
+  "textures": {
+    "0": "ranahiromod:block/volhiro_knife2",
+    "particle": "ranahiromod:item/volhiro_knife"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:pizza"
+    },
+    "title": {
+      "translate": "advancements.crafted_pizza.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_pizza.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_pizza_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:crafted_yakisoba"
+}

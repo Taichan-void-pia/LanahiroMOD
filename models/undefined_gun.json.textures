@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "kenjuhyoumen",
+        "1": "kenjuhyoumen2"
+      },
+      "name": "default"
+    }
+  }
+}

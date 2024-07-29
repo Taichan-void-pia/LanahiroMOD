@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "ranahiromod:epic_down_enderman",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

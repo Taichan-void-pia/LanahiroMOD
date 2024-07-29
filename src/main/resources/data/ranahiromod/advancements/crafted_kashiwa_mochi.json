@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:kashiwa_mochi"
+    },
+    "title": {
+      "translate": "advancements.crafted_kashiwa_mochi.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_kashiwa_mochi.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_kashiwa_mochi_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:crafted_mochi"
+}

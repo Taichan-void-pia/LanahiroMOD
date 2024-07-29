@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "title": {
+      "translate": "advancements.chicken_kill_100.title"
+    },
+    "description": {
+      "translate": "advancements.chicken_kill_100.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chicken_kill_100_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:cowkill_100"
+}

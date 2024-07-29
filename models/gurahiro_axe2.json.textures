@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "particle": "gurahiro_axe2"
+      },
+      "name": "default"
+    }
+  }
+}

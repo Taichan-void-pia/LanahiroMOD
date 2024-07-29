@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "minecraft:dirt"
+    },
+    "c": {
+      "item": "ranahiromod:pink_diamond"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:field_strucutre_block",
+    "count": 1
+  }
+}

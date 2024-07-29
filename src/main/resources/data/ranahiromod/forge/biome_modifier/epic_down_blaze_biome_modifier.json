@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "desert",
+    "plains"
+  ],
+  "spawners": {
+    "type": "ranahiromod:epic_down_blaze",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

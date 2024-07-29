@@ -1,0 +1,1012 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_boots"
+    },
+    "title": {
+      "translate": "advancements.adventuring_time.title"
+    },
+    "description": {
+      "translate": "advancements.adventuring_time.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adventuring_time_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "badlands"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "bamboo_jungle"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "basalt_deltas"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "beach"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "birch_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "cherry_grove"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "cold_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "crimson_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "dark_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "deep_cold_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "deep_frozen_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "deep_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "desert"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "end_barrens"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "end_highlands"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "end_midlands"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "eroded_badlands"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "flower_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "frozen_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_21": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "frozen_peaks"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_22": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "frozen_river"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_23": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "grove"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_24": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "ice_spikes"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_25": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "jagged_peaks"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_26": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "jungle"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_27": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "lukewarm_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_28": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "lush_caves"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_29": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "mangrove_swamp"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_30": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "meadow"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_31": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "mushroom_fields"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_32": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "nether_wastes"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_33": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_34": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "old_growth_birch_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_35": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "old_growth_pine_taiga"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_36": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "old_growth_spruce_taiga"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_37": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "plains"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_38": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "river"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_39": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "savanna"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_40": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "savanna_plateau"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_41": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "small_end_islands"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_42": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "snowy_slopes"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_43": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "snowy_beach"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_44": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "snowy_plains"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_45": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "snowy_taiga"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_46": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "soul_sand_valley"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_47": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "sparse_jungle"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_48": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "stony_peaks"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_49": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "stony_shore"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_50": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "sunflower_plains"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_51": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "swamp"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_52": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "taiga"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_53": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "the_end"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_54": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "the_void"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_55": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "warm_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_56": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "warped_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_57": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "windswept_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_58": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "windswept_gravelly_hills"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_59": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "windswept_hills"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_60": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "windswept_savanna"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "adventuring_time_61": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "wooded_badlands"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ranahiromod:the_end"
+}

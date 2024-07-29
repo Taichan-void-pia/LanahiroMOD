@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ranahiromod:block/soul_block_side",
+    "up": "ranahiromod:block/soul_block_side",
+    "north": "ranahiromod:block/soul_block_top",
+    "east": "ranahiromod:block/soul_block_side",
+    "south": "ranahiromod:block/soul_block_top",
+    "west": "ranahiromod:block/soul_block_side",
+    "particle": "ranahiromod:block/soul_block_side"
+  },
+  "render_type": "solid"
+}

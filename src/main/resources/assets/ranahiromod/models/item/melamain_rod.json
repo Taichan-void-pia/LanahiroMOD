@@ -1,0 +1,6 @@
+{
+  "parent": "ranahiromod:custom/meraminn_cane2",
+  "textures": {
+    "particle": "ranahiromod:item/meraminn_cane2"
+  }
+}

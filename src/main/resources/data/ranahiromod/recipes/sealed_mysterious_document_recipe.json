@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:obsidian"
+    },
+    "b": {
+      "item": "ranahiromod:strange_ink"
+    },
+    "c": {
+      "item": "ranahiromod:mysterious_document"
+    },
+    "d": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:sealed_mysterious_document",
+    "count": 1
+  }
+}

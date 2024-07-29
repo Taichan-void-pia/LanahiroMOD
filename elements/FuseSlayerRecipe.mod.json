@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SoulIngot"
+      },
+      {
+        "value": "CUSTOM:SoulGriefIngot"
+      },
+      {
+        "value": "CUSTOM:SoulIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SKLiner5077Power"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SKLiner5077Blade"
+    },
+    "name": "fuse_slayer_recipe",
+    "namespace": "mod"
+  }
+}

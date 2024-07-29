@@ -1,0 +1,31 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "aoi_weapon2",
+    "customModelName": "aoi_weapon_arrow:aoi_weapon_bow_2",
+    "blockingModelName": "Normal blocking",
+    "name": "Fossilaoi's Bow",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [],
+    "efficiency": 14.0,
+    "attackSpeed": 1.6,
+    "enchantability": 10,
+    "damageVsEntity": 10.0,
+    "usageCount": 5463,
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "WIPProcedure"
+    }
+  }
+}

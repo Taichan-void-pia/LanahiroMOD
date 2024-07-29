@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.STONE_BUTTON"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 0.66,
+    "damage": 30.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}

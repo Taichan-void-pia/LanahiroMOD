@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "ranahiromod:pink_diamond"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:my_house_structure_block",
+    "count": 1
+  }
+}

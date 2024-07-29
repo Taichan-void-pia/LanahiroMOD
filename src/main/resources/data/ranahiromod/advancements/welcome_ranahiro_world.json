@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "ranahiromod:textures/screens/eeeeeeeeeeeeeweweweew.png",
+    "icon": {
+      "item": "ranahiromod:ranahiro"
+    },
+    "title": {
+      "translate": "advancements.welcome_ranahiro_world.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_ranahiro_world.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_ranahiro_world_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

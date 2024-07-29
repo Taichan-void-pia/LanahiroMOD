@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ranahiromod:block/wawawawawawawawawawawawawawawawawawawawawawawawawawawawawawa_portal_ew"
+    },
+    "axis=x": {
+      "model": "ranahiromod:block/wawawawawawawawawawawawawawawawawawawawawawawawawawawawawawa_portal_ns"
+    }
+  }
+}

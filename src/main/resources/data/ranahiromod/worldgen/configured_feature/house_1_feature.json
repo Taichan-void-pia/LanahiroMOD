@@ -1,0 +1,9 @@
+{
+  "type": "ranahiromod:structure_feature",
+  "config": {
+    "structure": "ranahiromod:house1",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

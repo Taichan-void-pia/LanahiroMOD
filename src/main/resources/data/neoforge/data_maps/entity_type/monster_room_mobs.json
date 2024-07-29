@@ -1,0 +1,25 @@
+{
+  "values": {
+    "ranahiromod:epic_down_zombie": {
+      "weight": 100
+    },
+    "ranahiromod:epic_down_skeleton": {
+      "weight": 100
+    },
+    "ranahiromod:miner_skeleton": {
+      "weight": 100
+    },
+    "ranahiromod:general_skeleton": {
+      "weight": 100
+    },
+    "ranahiromod:general_wither_skeleton": {
+      "weight": 100
+    },
+    "ranahiromod:epic_down_creeper": {
+      "weight": 100
+    },
+    "ranahiromod:epic_down_enderman": {
+      "weight": 100
+    }
+  }
+}

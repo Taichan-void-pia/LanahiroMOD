@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:okonomiyaki"
+    },
+    "title": {
+      "translate": "advancements.crafted_okonomiyaki.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_okonomiyaki.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_okonomiyaki_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:crafted_dorayaki"
+}

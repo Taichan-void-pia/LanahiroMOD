@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "Items.IRON_LEGGINGS"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Crystal"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrystalArmorArmor.legs"
+    },
+    "name": "crystal_armor_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

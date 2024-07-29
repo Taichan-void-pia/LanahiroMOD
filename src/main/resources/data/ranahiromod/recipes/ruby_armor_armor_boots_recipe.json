@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:ruby"
+    },
+    "b": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:ruby_armor_armor_boots",
+    "count": 1
+  }
+}

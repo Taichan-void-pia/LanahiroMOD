@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "nichirinsword_withoutblade_dragon",
+        "2": "blade_dragon"
+      },
+      "name": "default"
+    }
+  }
+}

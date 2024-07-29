@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/wepohiro2_demon2",
+  "textures": {
+    "2": "ranahiromod:block/wepohiro2_demon",
+    "particle": "ranahiromod:item/devilsword"
+  }
+}

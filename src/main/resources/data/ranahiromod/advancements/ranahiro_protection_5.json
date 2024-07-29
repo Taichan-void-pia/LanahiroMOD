@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:ruby"
+    },
+    "title": {
+      "translate": "advancements.ranahiro_protection_5.title"
+    },
+    "description": {
+      "translate": "advancements.ranahiro_protection_5.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ranahiro_protection_5_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:ranahiro_protection_4"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/fuse_slayer",
+  "textures": {
+    "0": "ranahiromod:block/fuseslayer-texture",
+    "particle": "ranahiromod:item/fuseslayer-texture"
+  }
+}

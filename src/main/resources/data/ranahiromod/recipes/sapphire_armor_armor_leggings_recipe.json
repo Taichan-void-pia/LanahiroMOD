@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:sapphire"
+    },
+    "b": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:sapphire_armor_armor_leggings",
+    "count": 1
+  }
+}

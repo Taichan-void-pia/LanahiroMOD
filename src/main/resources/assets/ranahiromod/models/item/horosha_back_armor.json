@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/ushironoyatu",
+  "textures": {
+    "0": "ranahiromod:block/hourousyausironowatuu",
+    "particle": "ranahiromod:item/hourousyausironowatuu"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_axe"
+    },
+    "b": {
+      "item": "minecraft:iron_shovel"
+    },
+    "c": {
+      "item": "minecraft:iron_sword"
+    },
+    "d": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "e": {
+      "tag": "minecraft:logs"
+    },
+    "f": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "g": {
+      "item": "minecraft:stone_sword"
+    },
+    "h": {
+      "item": "minecraft:stone_shovel"
+    },
+    "i": {
+      "item": "minecraft:stone_axe"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

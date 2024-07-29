@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "ranahiromod:epic_down_skeleton",
+    "weight": 7,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

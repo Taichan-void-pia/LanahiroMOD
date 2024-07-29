@@ -1,0 +1,8 @@
+{
+  "parent": "ranahiromod:custom/elder_dragon_sword",
+  "textures": {
+    "1": "ranahiromod:block/elder_dragon_sword",
+    "2": "ranahiromod:block/elder_dragon_sword2",
+    "particle": "ranahiromod:item/elder_dragon_sword"
+  }
+}

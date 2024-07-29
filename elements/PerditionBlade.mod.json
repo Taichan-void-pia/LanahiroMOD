@@ -1,0 +1,20 @@
+{
+  "_fv": 66,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Perdition Blade",
+    "type": "WEAPON",
+    "rarity": "VERY_RARE",
+    "maxLevel": 999,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [],
+    "excludeItems": false,
+    "isTreasureEnchantment": true,
+    "isCurse": true,
+    "isAllowedOnBooks": false,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

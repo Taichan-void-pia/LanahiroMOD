@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ranahiromod:block/glass",
+    "up": "ranahiromod:block/glass",
+    "north": "ranahiromod:block/glass",
+    "east": "ranahiromod:block/glass",
+    "south": "ranahiromod:block/glass",
+    "west": "ranahiromod:block/glass",
+    "particle": "ranahiromod:block/glass"
+  },
+  "render_type": "cutout"
+}

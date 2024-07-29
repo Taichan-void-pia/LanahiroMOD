@@ -1,0 +1,11 @@
+{
+  "parent": "ranahiromod:custom/mysterious_document",
+  "textures": {
+    "0": "ranahiromod:block/mysterious_document",
+    "1": "ranahiromod:block/mysterious_document_1",
+    "2": "ranahiromod:block/mysterious_document_2",
+    "3": "ranahiromod:block/mysterious_document_3",
+    "4": "ranahiromod:block/mysterious_document_4",
+    "particle": "ranahiromod:item/mysterious_document"
+  }
+}

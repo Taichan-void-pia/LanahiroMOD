@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ranahiromod:block/pink_diamond",
+    "particle": "ranahiromod:block/pink_diamond"
+  },
+  "render_type": "solid"
+}

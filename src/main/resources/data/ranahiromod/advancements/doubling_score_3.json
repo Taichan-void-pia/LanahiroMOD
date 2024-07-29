@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_helmet"
+    },
+    "title": {
+      "translate": "advancements.doubling_score_3.title"
+    },
+    "description": {
+      "translate": "advancements.doubling_score_3.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "doubling_score_3_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:doubling_score_2"
+}

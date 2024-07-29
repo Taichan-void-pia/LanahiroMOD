@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "acb",
+    " ab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_block"
+    },
+    "b": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "c": {
+      "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:taichan_bow",
+    "count": 1
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "_fv": 66,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "mechanism_helmet",
+    "enableBody": true,
+    "textureBody": "mechanism_wing",
+    "enableLeggings": true,
+    "textureLeggings": "mechanism_leggings",
+    "enableBoots": true,
+    "textureBoots": "mechanism_boots",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DoubleHiroInRanahiro"
+      }
+    ],
+    "armorTextureFile": "ranahiro_armor_",
+    "helmetName": "§b§l§k|||§r§d§lMechanism Helmet§r§b§l§k|||§r",
+    "bodyName": "§b§l§k|||§r§d§lMechanism Wing§r§b§l§k|||§r",
+    "leggingsName": "§b§l§k|||§r§d§lMechanism Leggings§r§b§l§k|||§r",
+    "bootsName": "§b§l§k|||§r§d§lMechanism Boots§r§b§l§k|||§r",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Modelmechanism_helmet",
+    "helmetModelPart": "mechanism_helmet",
+    "helmetModelTexture": "mechanism_armor.png",
+    "bodyModelName": "Modelmechanism_wing",
+    "bodyModelPart": "body",
+    "armsModelPartL": "leftarm",
+    "armsModelPartR": "rightarm",
+    "bodyModelTexture": "mechanism_armor.png",
+    "leggingsModelName": "Modelmechanism_leggings",
+    "leggingsModelPartL": "leftleg",
+    "leggingsModelPartR": "rightleg",
+    "leggingsModelTexture": "mechanism_armor.png",
+    "bootsModelName": "Modelmechanism_boots",
+    "bootsModelPartL": "leftleg",
+    "bootsModelPartR": "leftleg",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 1024,
+    "damageValueHelmet": 30,
+    "damageValueBody": 30,
+    "damageValueLeggings": 30,
+    "damageValueBoots": 30,
+    "enchantability": 15,
+    "toughness": 10.0,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:RanazmaniumIngot"
+      }
+    ]
+  }
+}

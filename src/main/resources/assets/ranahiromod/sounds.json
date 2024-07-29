@@ -1,0 +1,245 @@
+{
+  "guard": {
+    "subtitle": "subtitles.guard",
+    "sounds": [
+      {
+        "name": "ranahiromod:guard",
+        "stream": false
+      }
+    ]
+  },
+  "guard_sword": {
+    "subtitle": "subtitles.guard_sword",
+    "sounds": [
+      {
+        "name": "ranahiromod:guard_sword",
+        "stream": false
+      }
+    ]
+  },
+  "sword_sweep": {
+    "subtitle": "subtitles.sword_sweep",
+    "sounds": [
+      {
+        "name": "ranahiromod:sword_sweep",
+        "stream": false
+      }
+    ]
+  },
+  "bachi": {
+    "subtitle": "subtitles.bachi",
+    "sounds": [
+      {
+        "name": "ranahiromod:kaminari",
+        "stream": false
+      }
+    ]
+  },
+  "gun_shot": {
+    "subtitle": "subtitles.gun_shot",
+    "sounds": [
+      {
+        "name": "ranahiromod:siyotutoganfa_she_",
+        "stream": false
+      }
+    ]
+  },
+  "axe_hit": {
+    "subtitle": "subtitles.axe_hit",
+    "sounds": [
+      {
+        "name": "ranahiromod:zhong_ikituku1",
+        "stream": false
+      }
+    ]
+  },
+  "spear_swing": {
+    "subtitle": "subtitles.spear_swing",
+    "sounds": [
+      {
+        "name": "ranahiromod:jian_nosu_zhen_ri3",
+        "stream": false
+      }
+    ]
+  },
+  "mysterious_book": {
+    "subtitle": "subtitles.mysterious_book",
+    "sounds": [
+      {
+        "name": "ranahiromod:guai_siiguan_",
+        "stream": false
+      }
+    ]
+  },
+  "shotgun_shot": {
+    "subtitle": "subtitles.shotgun_shot",
+    "sounds": [
+      {
+        "name": "ranahiromod:siyotutoganfa_she_",
+        "stream": false
+      }
+    ]
+  },
+  "lavahiro_battle": {
+    "subtitle": "subtitles.lavahiro_battle",
+    "sounds": [
+      {
+        "name": "ranahiromod:blaze_lavahiro",
+        "stream": false
+      }
+    ]
+  },
+  "waterhiro_battle": {
+    "subtitle": "subtitles.waterhiro_battle",
+    "sounds": [
+      {
+        "name": "ranahiromod:water_dance_waterhiro",
+        "stream": false
+      }
+    ]
+  },
+  "windhiro_battle": {
+    "subtitle": "subtitles.windhiro_battle",
+    "sounds": [
+      {
+        "name": "ranahiromod:speed_battle_windhiro",
+        "stream": false
+      }
+    ]
+  },
+  "dragonhiro_battle": {
+    "subtitle": "subtitles.dragonhiro_battle",
+    "sounds": [
+      {
+        "name": "ranahiromod:peritunematerial_battlefield2_dragonhiro",
+        "stream": false
+      }
+    ]
+  },
+  "wind_magic_jugeki1": {
+    "subtitle": "subtitles.wind_magic_jugeki1",
+    "sounds": [
+      {
+        "name": "ranahiromod:hui_fu_mo_fa_1",
+        "stream": false
+      }
+    ]
+  },
+  "wind_magic_jugeki2": {
+    "subtitle": "subtitles.wind_magic_jugeki2",
+    "sounds": [
+      {
+        "name": "ranahiromod:feng_mo_fa_2",
+        "stream": false
+      }
+    ]
+  },
+  "hiromaru": {
+    "subtitle": "subtitles.hiromaru",
+    "sounds": [
+      {
+        "name": "ranahiromod:boss",
+        "stream": false
+      }
+    ]
+  },
+  "demonhiro_battle": {
+    "subtitle": "subtitles.demonhiro_battle",
+    "sounds": [
+      {
+        "name": "ranahiromod:onihiro_battle_1",
+        "stream": false
+      }
+    ]
+  },
+  "groundhiro_battle": {
+    "subtitle": "subtitles.groundhiro_battle",
+    "sounds": [
+      {
+        "name": "ranahiromod:groundhiro_battle",
+        "stream": false
+      }
+    ]
+  },
+  "semiboss_song_1": {
+    "subtitle": "subtitles.semiboss_song_1",
+    "sounds": [
+      {
+        "name": "ranahiromod:zhong_bosuzhan_dou_1",
+        "stream": false
+      }
+    ]
+  },
+  "semiboss_song_2": {
+    "subtitle": "subtitles.semiboss_song_2",
+    "sounds": [
+      {
+        "name": "ranahiromod:lanahiromod-ost-semibossfight",
+        "stream": false
+      }
+    ]
+  },
+  "flame_explode": {
+    "subtitle": "subtitles.flame_explode",
+    "sounds": [
+      {
+        "name": "ranahiromod:fire1",
+        "stream": false
+      }
+    ]
+  },
+  "bosshiro_battle": {
+    "subtitle": "subtitles.bosshiro_battle",
+    "sounds": [
+      {
+        "name": "ranahiromod:black-note-",
+        "stream": false
+      }
+    ]
+  },
+  "phoenixhiro_battle": {
+    "subtitle": "subtitles.phoenixhiro_battle",
+    "sounds": [
+      {
+        "name": "ranahiromod:trick_style",
+        "stream": false
+      }
+    ]
+  },
+  "mojangstudios": {
+    "subtitle": "subtitles.mojangstudios",
+    "sounds": [
+      {
+        "name": "ranahiromod:papapaya",
+        "stream": false
+      }
+    ]
+  },
+  "mojangstudios2": {
+    "subtitle": "subtitles.mojangstudios2",
+    "sounds": [
+      {
+        "name": "ranahiromod:papaya",
+        "stream": false
+      }
+    ]
+  },
+  "ossan_damage": {
+    "subtitle": "subtitles.ossan_damage",
+    "sounds": [
+      {
+        "name": "ranahiromod:hit1",
+        "stream": false
+      }
+    ]
+  },
+  "explosive": {
+    "subtitle": "subtitles.explosive",
+    "sounds": [
+      {
+        "name": "ranahiromod:explode1",
+        "stream": false
+      }
+    ]
+  }
+}

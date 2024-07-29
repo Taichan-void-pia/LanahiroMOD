@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "re_bosshiro_sword"
+      },
+      "name": "default"
+    }
+  }
+}

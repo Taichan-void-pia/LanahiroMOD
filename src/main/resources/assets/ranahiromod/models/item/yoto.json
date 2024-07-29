@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/wepohiro2_whiched",
+  "textures": {
+    "0": "ranahiromod:block/wepohiro2_whiched",
+    "particle": "ranahiromod:item/wepohiro2_whiched"
+  }
+}

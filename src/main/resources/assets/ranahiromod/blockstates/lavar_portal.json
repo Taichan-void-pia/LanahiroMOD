@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ranahiromod:block/lavar_portal_ew"
+    },
+    "axis=x": {
+      "model": "ranahiromod:block/lavar_portal_ns"
+    }
+  }
+}

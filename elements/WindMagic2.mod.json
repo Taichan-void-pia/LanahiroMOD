@@ -1,0 +1,44 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "kekefufu_jewel1",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "WindMagic",
+    "specialInformation": {
+      "fixedValue": [
+        "これはエンダーパールではないだろう"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DoubleHiroInSumahiro"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 1.6,
+    "enchantability": 10,
+    "damageVsEntity": 10.0,
+    "usageCount": 5463,
+    "glowCondition": {
+      "fixedValue": true,
+      "name": "WindMagicSetUPSkill"
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "StartSkills"
+    },
+    "onEntitySwing": {
+      "name": "SwingBase"
+    }
+  }
+}

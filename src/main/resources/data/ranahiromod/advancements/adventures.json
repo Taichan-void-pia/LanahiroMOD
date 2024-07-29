@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:ranazmanium_ingot"
+    },
+    "title": {
+      "translate": "advancements.adventures.title"
+    },
+    "description": {
+      "translate": "advancements.adventures.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "adventures_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "ranahiromod:welcome_ranahiro_world"
+}

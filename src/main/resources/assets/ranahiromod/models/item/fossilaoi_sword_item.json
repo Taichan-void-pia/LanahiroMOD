@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/aoi_weapon2",
+  "textures": {
+    "0": "ranahiromod:block/aoi_weapon2",
+    "particle": "ranahiromod:item/aoi_weapon2"
+  }
+}

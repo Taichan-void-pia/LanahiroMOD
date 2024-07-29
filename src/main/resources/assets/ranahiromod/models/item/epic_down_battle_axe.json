@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/battle_axe_epicdown",
+  "textures": {
+    "0": "ranahiromod:block/weapons_epicdown",
+    "particle": "ranahiromod:item/epicdown_slasher"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.IRON_BLOCK"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "CUSTOM:shotgun_shot"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsEntity": {
+      "name": "EnergyRifleProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "BulletLogic"
+    }
+  }
+}

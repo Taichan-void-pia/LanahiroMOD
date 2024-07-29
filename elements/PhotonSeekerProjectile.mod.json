@@ -1,0 +1,28 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.ARROW"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Modelphotpn_seeker",
+    "customModelTexture": "photon2.png",
+    "onHitsBlock": {
+      "name": "MochiExplodeBulletProjectileHitsLivingEntity"
+    },
+    "onHitsEntity": {
+      "name": "MochiExplodeBulletProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "PhotonSeekerProjectileHitsPlayer"
+    }
+  }
+}

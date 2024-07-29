@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "ranahiromod:topaz"
+    },
+    "b": {
+      "item": "minecraft:diamond_helmet"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:topaz_tool_armor_helmet",
+    "count": 1
+  }
+}

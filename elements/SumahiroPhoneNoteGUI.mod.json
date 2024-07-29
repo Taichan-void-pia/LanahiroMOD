@@ -1,0 +1,247 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 100,
+    "height": 205,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "iphone_gui.png",
+          "use1Xscale": false,
+          "x": 164,
+          "y": 18
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_iphone_button",
+          "image": "iphone_button.png",
+          "hoveredImage": "iphone_hover_button.png",
+          "onClick": {
+            "name": "SumahiroPhoneHomeButton"
+          },
+          "x": 207,
+          "y": 204
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_000",
+          "text": {
+            "fixedValue": "0:00"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 20
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation1"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_1.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation1"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation2"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation3"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "battery_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhoneBatteryAnimation4"
+          },
+          "x": 254,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation2"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation3"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SumahiroPhonePingAnimation4"
+          },
+          "x": 247,
+          "y": 22
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_weather",
+          "text": {
+            "fixedValue": "note"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 203,
+          "y": 28
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "note",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 43
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "note2",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 63
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "note3",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 83
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "note4",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 103
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "note5",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 123
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "note6",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 143
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "note7",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 163
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 14,
+      "sy": 14,
+      "ox": 21,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

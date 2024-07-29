@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "minecraft:iron_boots"
+    },
+    "c": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "ranahiromod:emerald_armor_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_enchant_lvl10",
+          "text": "Enchant lvl10",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Enchantlvl10"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 186,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_enchant_lvl20",
+          "text": "Enchant lvl20",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Enchantlvl20"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 186,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_enchant_lvl30",
+          "text": "Enchant lvl30",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Enchantlvl30"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 186,
+          "y": 89
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

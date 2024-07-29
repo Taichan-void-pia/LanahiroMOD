@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/sword_epicdown",
+  "textures": {
+    "0": "ranahiromod:block/weapons_epicdown",
+    "particle": "ranahiromod:item/epicdown_sword"
+  }
+}

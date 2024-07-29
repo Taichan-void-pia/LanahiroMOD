@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "advancements.double_jump.title"
+    },
+    "description": {
+      "translate": "advancements.double_jump.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "double_jump_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "ranahiromod:perks"
+}

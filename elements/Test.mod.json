@@ -1,0 +1,10 @@
+{
+  "_fv": 66,
+  "_type": "command",
+  "definition": {
+    "commandName": "testable",
+    "type": "STANDARD",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"208\" y=\"60\"><next><block type=\"string\"><field name=\"type\">string</field><field name=\"name\">cmdtypes</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">TestCmddiveded</field></block></statement></block></next></block></xml>"
+  }
+}

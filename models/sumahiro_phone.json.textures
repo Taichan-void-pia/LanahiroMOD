@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "particle": "sumahiro_phone2"
+      },
+      "name": "default"
+    }
+  }
+}

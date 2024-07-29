@@ -1,0 +1,7 @@
+{
+  "parent": "ranahiromod:custom/bowl_rice_midium",
+  "textures": {
+    "0": "ranahiromod:block/bowl_rice",
+    "particle": "ranahiromod:item/amount_gohan_ochawan3"
+  }
+}

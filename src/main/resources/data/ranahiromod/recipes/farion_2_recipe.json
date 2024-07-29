@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ranahiromod:farion_gun"
+    }
+  ],
+  "result": {
+    "item": "ranahiromod:farion_sword",
+    "count": 1
+  }
+}

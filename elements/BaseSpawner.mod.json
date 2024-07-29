@@ -1,0 +1,57 @@
+{
+  "_fv": 66,
+  "_type": "structure",
+  "definition": {
+    "structure": "sp_base",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 1,
+    "separation": 0,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AncientEverest"
+      },
+      {
+        "value": "CUSTOM:DemonEverest"
+      },
+      {
+        "value": "CUSTOM:DragonEverest"
+      },
+      {
+        "value": "CUSTOM:Everest"
+      },
+      {
+        "value": "CUSTOM:Himalayas"
+      },
+      {
+        "value": "CUSTOM:LavaEverest"
+      },
+      {
+        "value": "CUSTOM:NeoEverest"
+      },
+      {
+        "value": "CUSTOM:ThunderEverest"
+      },
+      {
+        "value": "CUSTOM:WaterEverest"
+      },
+      {
+        "value": "CUSTOM:WindEverest"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

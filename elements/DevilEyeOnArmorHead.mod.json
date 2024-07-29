@@ -1,0 +1,7 @@
+{
+  "_fv": 66,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"x_pos\" type=\"Number\">x_pos</variable><variable id=\"y_pos\" type=\"Number\">y_pos</variable><variable id=\"z_pos\" type=\"Number\">z_pos</variable><variable id=\"dis\" type=\"Number\">dis</variable></variables><block deletable=\"false\" type=\"event_trigger\" x=\"-393\" y=\"70\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_add_potion_advanced\"><field name=\"potion\">NIGHT_VISION</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">240</field></block></value><value name=\"ambient\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value><value name=\"particles\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></next></block></xml>"
+  }
+}

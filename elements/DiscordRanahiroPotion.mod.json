@@ -1,0 +1,21 @@
+{
+  "_fv": 66,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Discord Ranahiro",
+    "splashName": "Splash Potion of Discord Ranahiro",
+    "lingeringName": "Lingering Potion of Discord Ranahiro",
+    "arrowName": "Arrow of Discord Ranahiro",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:DiscordRanahiro"
+        },
+        "duration": 12000,
+        "amplifier": 0,
+        "ambient": true,
+        "showParticles": true
+      }
+    ]
+  }
+}

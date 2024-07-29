@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "title": {
+      "translate": "advancements.sheep_kill_100.title"
+    },
+    "description": {
+      "translate": "advancements.sheep_kill_100.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sheep_kill_100_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:rabbit_kill_100"
+}

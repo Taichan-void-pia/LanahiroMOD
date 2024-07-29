@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ranahiromod:soul_ingot"
+    },
+    "title": {
+      "translate": "advancements.crafted_soul_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.crafted_soul_ingot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_soul_ingot_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ranahiromod:get_pink_diamond"
+}

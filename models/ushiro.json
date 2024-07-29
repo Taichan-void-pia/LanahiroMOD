@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "ushiro",
+	"textures": {
+		"0": "hourousyausironowatuu"
+	},
+	"elements": [
+		{
+			"from": [-14, 3.5, 4.25],
+			"to": [14.5, 32, 22.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.25, 25, 13.5]},
+			"faces": {
+				"north": {"uv": [2, 2, 14, 14], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 14], "texture": "#0"},
+				"south": {"uv": [16, 2, 28, 14], "texture": "#0"},
+				"west": {"uv": [14, 2, 16, 14], "texture": "#0"},
+				"up": {"uv": [14, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [26, 0, 14, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [15.75, -11, 13.75],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "body",
+			"origin": [0, 24, 0],
+			"color": 0,
+			"shade": false,
+			"children": [
+				{
+					"name": "bone",
+					"origin": [-0.25, 25, 13.5],
+					"color": 0,
+					"children": [0]
+				}
+			]
+		}
+	]
+}

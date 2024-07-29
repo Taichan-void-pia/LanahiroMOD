@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "galrad"
+      },
+      "name": "default"
+    },
+    "null_galrad": {
+      "map": {
+        "0": "null"
+      },
+      "name": "null_galrad"
+    }
+  }
+}
