@@ -22,6 +22,7 @@ public class StartSkillsProcedure {
 			return;
 		double num1 = 0;
 		double waza_add_counter = 0;
+		boolean test_used_carrot = false;
 		if ((entity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).Job != 7) {
 			if (entity.getPersistentData().getDouble("skill2_swing") == 0) {
 				if (entity.getPersistentData().getDouble("skill2") == 0) {
@@ -115,9 +116,17 @@ public class StartSkillsProcedure {
 						entity.getPersistentData().putDouble("skill2", (1501 + itemstack.getOrCreateTag().getDouble("select2")));
 					}
 					if ((entity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).Job == 3 && itemstack.getItem() == RanahiromodModItems.SUN_ROD.get()) {
-						entity.getPersistentData().putDouble("skill2", (20201 + (entity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChangeOtherSkillKeyCounter));
+						if (test_used_carrot) {
+							entity.getPersistentData().putDouble("skill2", (itemstack.getOrCreateTag().getDouble("skill2_num")));
+						} else {
+							entity.getPersistentData().putDouble("skill2", (20201 + (entity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChangeOtherSkillKeyCounter));
+						}
 					} else if ((entity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).Job == 6 && itemstack.getItem() == RanahiromodModItems.SUN_ROD.get()) {
-						entity.getPersistentData().putDouble("skill2", (20501 + (entity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChangeOtherSkillKeyCounter));
+						if (test_used_carrot) {
+							entity.getPersistentData().putDouble("skill2", (itemstack.getOrCreateTag().getDouble("skill2_num")));
+						} else {
+							entity.getPersistentData().putDouble("skill2", (20501 + (entity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChangeOtherSkillKeyCounter));
+						}
 					} else {
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal((itemstack.getOrCreateTag().getString("waza_name"))), true);
