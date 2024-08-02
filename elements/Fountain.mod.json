@@ -2,27 +2,27 @@
   "_fv": 66,
   "_type": "structure",
   "definition": {
-    "structure": "tower",
+    "structure": "fountain",
     "projection": "rigid",
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 14,
-    "separation": 8,
+    "spacing": 12,
+    "separation": 7,
     "restrictionBiomes": [
       {
         "value": "#minecraft:is_overworld"
       }
     ],
     "terrainAdaptation": "none",
-    "generationStep": "SURFACE_STRUCTURES",
-    "surfaceDetectionType": "WORLD_SURFACE",
-    "useStartHeight": false,
+    "generationStep": "LOCAL_MODIFICATIONS",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
     "startHeightProviderType": "UNIFORM",
-    "startHeightMin": 0,
-    "startHeightMax": 128,
+    "startHeightMin": 120,
+    "startHeightMax": 160,
     "size": 1,
     "maxDistanceFromCenter": 64,
     "jigsawPools": []

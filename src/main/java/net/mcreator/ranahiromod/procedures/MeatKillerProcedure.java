@@ -5,6 +5,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.entity.animal.Rabbit;
 import net.minecraft.world.entity.animal.Pig;
@@ -13,6 +14,7 @@ import net.minecraft.world.entity.animal.Chicken;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
@@ -54,6 +56,9 @@ public class MeatKillerProcedure {
 						capability.syncPlayerVariables(sourceentity);
 					});
 				}
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal(("\u9032\u6357\u9054\u6210\u307E\u3067\u3042\u3068"
+							+ Math.round((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).CowKillCounter) + "\u4F53")), false);
 			}
 		}
 		if (entity instanceof Chicken) {
@@ -74,6 +79,9 @@ public class MeatKillerProcedure {
 						capability.syncPlayerVariables(sourceentity);
 					});
 				}
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal(("\u9032\u6357\u9054\u6210\u307E\u3067\u3042\u3068"
+							+ Math.round((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChickenKillCounter) + "\u4F53")), false);
 			}
 		}
 		if (entity instanceof Sheep) {
@@ -94,6 +102,9 @@ public class MeatKillerProcedure {
 						capability.syncPlayerVariables(sourceentity);
 					});
 				}
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal(("\u9032\u6357\u9054\u6210\u307E\u3067\u3042\u3068"
+							+ Math.round((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).SheepKillCounter) + "\u4F53")), false);
 			}
 		}
 		if (entity instanceof Rabbit) {
@@ -114,6 +125,9 @@ public class MeatKillerProcedure {
 						capability.syncPlayerVariables(sourceentity);
 					});
 				}
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal(("\u9032\u6357\u9054\u6210\u307E\u3067\u3042\u3068"
+							+ Math.round((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).RabbitKillCounter) + "\u4F53")), false);
 			}
 		}
 		if (entity instanceof Pig) {
@@ -134,6 +148,9 @@ public class MeatKillerProcedure {
 						capability.syncPlayerVariables(sourceentity);
 					});
 				}
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal(("\u9032\u6357\u9054\u6210\u307E\u3067\u3042\u3068"
+							+ Math.round((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).PigKillCounter) + "\u4F53")), false);
 			}
 		}
 	}

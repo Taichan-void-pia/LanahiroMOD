@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "ranahiromod:fountain",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "local_modifications",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 120
+    },
+    "max_inclusive": {
+      "absolute": 160
+    }
+  },
+  "biomes": "#minecraft:is_overworld",
+  "use_expansion_hack": false
+}

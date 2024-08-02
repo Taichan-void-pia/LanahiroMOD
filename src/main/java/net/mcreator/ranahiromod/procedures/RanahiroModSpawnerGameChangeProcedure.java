@@ -15,6 +15,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.GameType;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -59,6 +60,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 			return;
 		double rnd = 0;
 		double durability = 0;
+		double harvest_level = 0;
 		if (new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayer _serverPlayer) {
@@ -92,7 +94,26 @@ public class RanahiroModSpawnerGameChangeProcedure {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
 					durability = 1;
 				} else {
-					durability = Math.max(Math.round((0 * 2 + (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getMaxDamage() / 100) / 10), 1);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof PickaxeItem) {
+						if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.WOODEN_PICKAXE
+								|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.GOLDEN_PICKAXE) {
+							harvest_level = 0;
+						} else {
+							if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.STONE_PICKAXE) {
+								harvest_level = 1;
+							} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.IRON_PICKAXE) {
+								harvest_level = 2;
+							} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.DIAMOND_PICKAXE
+									|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.NETHERITE_PICKAXE) {
+								harvest_level = 3;
+							} else {
+								harvest_level = Math.random() < 0.5 ? 5 : 4;
+							}
+						}
+						durability = Math.max(Math.round((harvest_level * 2 + (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getMaxDamage() / 100) / 10), 1);
+					} else {
+						durability = 1;
+					}
 				}
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(x, y, z);
@@ -112,21 +133,23 @@ public class RanahiroModSpawnerGameChangeProcedure {
 				}
 				if (EnchantmentHelper.getItemEnchantmentLevel(RanahiromodModEnchantments.DOUBLE_BREAK.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
 					if (Math.random() < Math.min((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(RanahiromodModEnchantments.DOUBLE_BREAK.get()) / 10, 1)) {
-						if (!world.isClientSide()) {
-							BlockPos _bp = BlockPos.containing(x, y, z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null)
-								_blockEntity.getPersistentData().putDouble("break_cnt", (new Object() {
-									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-										BlockEntity blockEntity = world.getBlockEntity(pos);
-										if (blockEntity != null)
-											return blockEntity.getPersistentData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(world, BlockPos.containing(x, y, z), "break_cnt") + durability));
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+						for (int index0 = 0; index0 < Math.round((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(RanahiromodModEnchantments.DOUBLE_BREAK.get())); index0++) {
+							if (!world.isClientSide()) {
+								BlockPos _bp = BlockPos.containing(x, y, z);
+								BlockEntity _blockEntity = world.getBlockEntity(_bp);
+								BlockState _bs = world.getBlockState(_bp);
+								if (_blockEntity != null)
+									_blockEntity.getPersistentData().putDouble("break_cnt", (new Object() {
+										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+											BlockEntity blockEntity = world.getBlockEntity(pos);
+											if (blockEntity != null)
+												return blockEntity.getPersistentData().getDouble(tag);
+											return -1;
+										}
+									}.getValue(world, BlockPos.containing(x, y, z), "break_cnt") + durability));
+								if (world instanceof Level _level)
+									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+							}
 						}
 					}
 				}
@@ -184,7 +207,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 					rnd = Math.ceil(Math.random() * 5);
 					if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("ranahiromod:neo_everest"))) {
-						if (Math.random() < 0.3) {
+						if (Math.random() < 0.1) {
 							if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 								_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 1000, 5, false, false));
 						}
@@ -271,7 +294,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 						_level.sendParticles(ParticleTypes.CRIMSON_SPORE, (x + 0.5), y, (z + 0.5), 100, 0.4, 0.4, 0.4, 0.1);
 					rnd = Math.ceil(Math.random() * 20);
 					if (rnd == 1) {
-						for (int index0 = 0; index0 < 10; index0++) {
+						for (int index1 = 0; index1 < 10; index1++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.ENCHANTED_GOLDEN_APPLE));
 								entityToSpawn.setPickUpDelay(10);
@@ -285,7 +308,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							_level.addFreshEntity(entityToSpawn);
 						}
 					} else if (rnd == 3) {
-						for (int index1 = 0; index1 < (int) Math.ceil(Math.random() * 64); index1++) {
+						for (int index2 = 0; index2 < (int) Math.ceil(Math.random() * 64); index2++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.IRON_INGOT));
 								entityToSpawn.setPickUpDelay(10);
@@ -293,7 +316,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 4) {
-						for (int index2 = 0; index2 < (int) Math.ceil(Math.random() * 64); index2++) {
+						for (int index3 = 0; index3 < (int) Math.ceil(Math.random() * 64); index3++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.GOLD_INGOT));
 								entityToSpawn.setPickUpDelay(10);
@@ -301,7 +324,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 5) {
-						for (int index3 = 0; index3 < (int) Math.ceil(Math.random() * 5); index3++) {
+						for (int index4 = 0; index4 < (int) Math.ceil(Math.random() * 5); index4++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Blocks.EMERALD_BLOCK));
 								entityToSpawn.setPickUpDelay(10);
@@ -310,7 +333,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 						}
 					}
 					if (rnd == 6) {
-						for (int index4 = 0; index4 < (int) Math.ceil(Math.random() * 32); index4++) {
+						for (int index5 = 0; index5 < (int) Math.ceil(Math.random() * 32); index5++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.DIAMOND));
 								entityToSpawn.setPickUpDelay(10);
@@ -324,7 +347,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							_level.addFreshEntity(entityToSpawn);
 						}
 					} else if (rnd == 8) {
-						for (int index5 = 0; index5 < 15; index5++) {
+						for (int index6 = 0; index6 < 15; index6++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.APPLE));
 								entityToSpawn.setPickUpDelay(10);
@@ -332,7 +355,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 9) {
-						for (int index6 = 0; index6 < (int) Math.ceil(Math.random() * 16); index6++) {
+						for (int index7 = 0; index7 < (int) Math.ceil(Math.random() * 16); index7++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.RUBY.get()));
 								entityToSpawn.setPickUpDelay(10);
@@ -340,7 +363,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 10) {
-						for (int index7 = 0; index7 < (int) Math.ceil(Math.random() * 16); index7++) {
+						for (int index8 = 0; index8 < (int) Math.ceil(Math.random() * 16); index8++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.SAPPHIRE.get()));
 								entityToSpawn.setPickUpDelay(10);
@@ -349,7 +372,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 						}
 					}
 					if (rnd == 11) {
-						for (int index8 = 0; index8 < 14; index8++) {
+						for (int index9 = 0; index9 < 14; index9++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Blocks.TNT));
 								entityToSpawn.setPickUpDelay(10);
@@ -363,7 +386,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							_level.addFreshEntity(entityToSpawn);
 						}
 					} else if (rnd == 13) {
-						for (int index9 = 0; index9 < (int) Math.ceil(Math.random() * 16); index9++) {
+						for (int index10 = 0; index10 < (int) Math.ceil(Math.random() * 16); index10++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.ENDER_PEARL));
 								entityToSpawn.setPickUpDelay(10);
@@ -371,7 +394,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 14) {
-						for (int index10 = 0; index10 < (int) Math.ceil(Math.random() * 16); index10++) {
+						for (int index11 = 0; index11 < (int) Math.ceil(Math.random() * 16); index11++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.CRYSTAL.get()));
 								entityToSpawn.setPickUpDelay(10);
@@ -379,7 +402,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 15) {
-						for (int index11 = 0; index11 < (int) Math.ceil(Math.random() * 4); index11++) {
+						for (int index12 = 0; index12 < (int) Math.ceil(Math.random() * 4); index12++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.TOPAZ.get()));
 								entityToSpawn.setPickUpDelay(10);
@@ -388,7 +411,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 						}
 					}
 					if (rnd == 16) {
-						for (int index12 = 0; index12 < (int) Math.ceil(Math.random() * 4); index12++) {
+						for (int index13 = 0; index13 < (int) Math.ceil(Math.random() * 4); index13++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.PINK_DIAMOND.get()));
 								entityToSpawn.setPickUpDelay(10);
@@ -396,7 +419,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 17) {
-						for (int index13 = 0; index13 < (int) Math.ceil(Math.random() * 2); index13++) {
+						for (int index14 = 0; index14 < (int) Math.ceil(Math.random() * 2); index14++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.SOUL_INGOT.get()));
 								entityToSpawn.setPickUpDelay(10);
@@ -404,7 +427,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 18) {
-						for (int index14 = 0; index14 < (int) Math.ceil(Math.random() * 2); index14++) {
+						for (int index15 = 0; index15 < (int) Math.ceil(Math.random() * 2); index15++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.SOUL_GRIEF_INGOT.get()));
 								entityToSpawn.setPickUpDelay(10);
@@ -412,7 +435,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 19) {
-						for (int index15 = 0; index15 < (int) Math.ceil(Math.random() * 64); index15++) {
+						for (int index16 = 0; index16 < (int) Math.ceil(Math.random() * 64); index16++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Blocks.TORCH));
 								entityToSpawn.setPickUpDelay(10);
@@ -420,7 +443,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 							}
 						}
 					} else if (rnd == 20) {
-						for (int index16 = 0; index16 < (int) Math.ceil(Math.random() * 64); index16++) {
+						for (int index17 = 0; index17 < (int) Math.ceil(Math.random() * 64); index17++) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.COAL));
 								entityToSpawn.setPickUpDelay(10);
@@ -449,7 +472,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 			}
 			rnd = Math.ceil(Math.random() * 20);
 			if (rnd == 1) {
-				for (int index17 = 0; index17 < 10; index17++) {
+				for (int index18 = 0; index18 < 10; index18++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.ENCHANTED_GOLDEN_APPLE));
 						entityToSpawn.setPickUpDelay(10);
@@ -463,7 +486,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					_level.addFreshEntity(entityToSpawn);
 				}
 			} else if (rnd == 3) {
-				for (int index18 = 0; index18 < (int) Math.ceil(Math.random() * 64); index18++) {
+				for (int index19 = 0; index19 < (int) Math.ceil(Math.random() * 64); index19++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.IRON_INGOT));
 						entityToSpawn.setPickUpDelay(10);
@@ -471,7 +494,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 4) {
-				for (int index19 = 0; index19 < (int) Math.ceil(Math.random() * 64); index19++) {
+				for (int index20 = 0; index20 < (int) Math.ceil(Math.random() * 64); index20++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.GOLD_INGOT));
 						entityToSpawn.setPickUpDelay(10);
@@ -479,7 +502,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 5) {
-				for (int index20 = 0; index20 < (int) Math.ceil(Math.random() * 5); index20++) {
+				for (int index21 = 0; index21 < (int) Math.ceil(Math.random() * 5); index21++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Blocks.EMERALD_BLOCK));
 						entityToSpawn.setPickUpDelay(10);
@@ -488,7 +511,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 				}
 			}
 			if (rnd == 6) {
-				for (int index21 = 0; index21 < (int) Math.ceil(Math.random() * 32); index21++) {
+				for (int index22 = 0; index22 < (int) Math.ceil(Math.random() * 32); index22++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.DIAMOND));
 						entityToSpawn.setPickUpDelay(10);
@@ -502,7 +525,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					_level.addFreshEntity(entityToSpawn);
 				}
 			} else if (rnd == 8) {
-				for (int index22 = 0; index22 < 15; index22++) {
+				for (int index23 = 0; index23 < 15; index23++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.APPLE));
 						entityToSpawn.setPickUpDelay(10);
@@ -510,7 +533,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 9) {
-				for (int index23 = 0; index23 < (int) Math.ceil(Math.random() * 16); index23++) {
+				for (int index24 = 0; index24 < (int) Math.ceil(Math.random() * 16); index24++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.RUBY.get()));
 						entityToSpawn.setPickUpDelay(10);
@@ -518,7 +541,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 10) {
-				for (int index24 = 0; index24 < (int) Math.ceil(Math.random() * 16); index24++) {
+				for (int index25 = 0; index25 < (int) Math.ceil(Math.random() * 16); index25++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.SAPPHIRE.get()));
 						entityToSpawn.setPickUpDelay(10);
@@ -527,7 +550,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 				}
 			}
 			if (rnd == 11) {
-				for (int index25 = 0; index25 < 14; index25++) {
+				for (int index26 = 0; index26 < 14; index26++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Blocks.TNT));
 						entityToSpawn.setPickUpDelay(10);
@@ -541,7 +564,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					_level.addFreshEntity(entityToSpawn);
 				}
 			} else if (rnd == 13) {
-				for (int index26 = 0; index26 < (int) Math.ceil(Math.random() * 16); index26++) {
+				for (int index27 = 0; index27 < (int) Math.ceil(Math.random() * 16); index27++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.ENDER_PEARL));
 						entityToSpawn.setPickUpDelay(10);
@@ -549,7 +572,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 14) {
-				for (int index27 = 0; index27 < (int) Math.ceil(Math.random() * 16); index27++) {
+				for (int index28 = 0; index28 < (int) Math.ceil(Math.random() * 16); index28++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.CRYSTAL.get()));
 						entityToSpawn.setPickUpDelay(10);
@@ -557,7 +580,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 15) {
-				for (int index28 = 0; index28 < (int) Math.ceil(Math.random() * 4); index28++) {
+				for (int index29 = 0; index29 < (int) Math.ceil(Math.random() * 4); index29++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.TOPAZ.get()));
 						entityToSpawn.setPickUpDelay(10);
@@ -566,7 +589,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 				}
 			}
 			if (rnd == 16) {
-				for (int index29 = 0; index29 < (int) Math.ceil(Math.random() * 4); index29++) {
+				for (int index30 = 0; index30 < (int) Math.ceil(Math.random() * 4); index30++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.PINK_DIAMOND.get()));
 						entityToSpawn.setPickUpDelay(10);
@@ -574,7 +597,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 17) {
-				for (int index30 = 0; index30 < (int) Math.ceil(Math.random() * 2); index30++) {
+				for (int index31 = 0; index31 < (int) Math.ceil(Math.random() * 2); index31++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.SOUL_INGOT.get()));
 						entityToSpawn.setPickUpDelay(10);
@@ -582,7 +605,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 18) {
-				for (int index31 = 0; index31 < (int) Math.ceil(Math.random() * 2); index31++) {
+				for (int index32 = 0; index32 < (int) Math.ceil(Math.random() * 2); index32++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(RanahiromodModItems.SOUL_GRIEF_INGOT.get()));
 						entityToSpawn.setPickUpDelay(10);
@@ -590,7 +613,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 19) {
-				for (int index32 = 0; index32 < (int) Math.ceil(Math.random() * 64); index32++) {
+				for (int index33 = 0; index33 < (int) Math.ceil(Math.random() * 64); index33++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Blocks.TORCH));
 						entityToSpawn.setPickUpDelay(10);
@@ -598,7 +621,7 @@ public class RanahiroModSpawnerGameChangeProcedure {
 					}
 				}
 			} else if (rnd == 20) {
-				for (int index33 = 0; index33 < (int) Math.ceil(Math.random() * 64); index33++) {
+				for (int index34 = 0; index34 < (int) Math.ceil(Math.random() * 64); index34++) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(Items.COAL));
 						entityToSpawn.setPickUpDelay(10);

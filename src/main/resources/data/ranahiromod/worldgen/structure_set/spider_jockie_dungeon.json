@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "ranahiromod:dungeon_tower",
+      "structure": "ranahiromod:spider_jockie_dungeon",
       "weight": 1
     }
   ],
@@ -9,6 +9,6 @@
     "type": "minecraft:random_spread",
     "spacing": 14,
     "separation": 8,
-    "salt": 804092359
+    "salt": 306761602
   }
 }

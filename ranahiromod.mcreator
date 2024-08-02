@@ -28289,6 +28289,36 @@
         ]
       },
       "path": "~/Procedures/Others/nbtCMD"
+    },
+    {
+      "name": "SpiderJockieDungeon",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_jockie_dungeon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/worldgen/structure/spider_jockie_dungeon.json",
+          "src/main/resources/data/ranahiromod/worldgen/template_pool/spider_jockie_dungeon.json",
+          "src/main/resources/data/ranahiromod/worldgen/structure_set/spider_jockie_dungeon.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Fountain",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fountain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/worldgen/structure/fountain.json",
+          "src/main/resources/data/ranahiromod/worldgen/template_pool/fountain.json",
+          "src/main/resources/data/ranahiromod/worldgen/structure_set/fountain.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [
