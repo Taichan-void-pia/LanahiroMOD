@@ -12,13 +12,13 @@ public class SkillSwordPlayerTickProcedure {
 		boolean WIP = false;
 		if (entity.getPersistentData().getDouble("skill2") != 0) {
 			if (entity.getPersistentData().getDouble("skill2") == 20001) {
-				KnightNewSkill1Procedure.execute(world, entity);
+				KnightNewSkill1Procedure.execute(world, x, y, z, entity);
 			} else if (entity.getPersistentData().getDouble("skill2") == 20002) {
 				KnightNewSkill2Procedure.execute(world, x, y, z, entity);
 			} else if (entity.getPersistentData().getDouble("skill2") == 20003) {
 				KnightNewSkill3Procedure.execute(world, entity);
 			} else if (entity.getPersistentData().getDouble("skill2") == 20004) {
-				KnightNewSkill4KaiProcedure.execute(world, entity);
+				KnightNewSkill4KaiProcedure.execute(world, x, y, z, entity);
 			} else if (entity.getPersistentData().getDouble("skill2") == 20005) {
 				KnightNewSkill5Procedure.execute(world, x, y, z, entity);
 			}

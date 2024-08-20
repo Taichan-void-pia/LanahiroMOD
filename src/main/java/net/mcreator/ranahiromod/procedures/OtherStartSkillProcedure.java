@@ -82,7 +82,7 @@ public class OtherStartSkillProcedure {
 											(20101 + (sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChangeOtherSkillKeyCounter));
 									if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 										_player.displayClientMessage(Component.literal(((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).WazaString)), true);
-									sourceentity.getPersistentData().putString("Archer_hit_UUID", (entity.getStringUUID()));
+									sourceentity.getPersistentData().putString("hit_UUID", (entity.getStringUUID()));
 								}
 							}
 						} else if (immediatesourceentity instanceof Snowball) {
@@ -93,7 +93,7 @@ public class OtherStartSkillProcedure {
 										(20201 + (sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChangeOtherSkillKeyCounter));
 								if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 									_player.displayClientMessage(Component.literal(((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).WazaString)), true);
-								sourceentity.getPersistentData().putString("Archer_hit_UUID", (entity.getStringUUID()));
+								sourceentity.getPersistentData().putString("hit_UUID", (entity.getStringUUID()));
 							}
 							if ((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).Job == 4) {
 								if ((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChangeOtherSkillKeyCounter == 2) {
@@ -104,13 +104,14 @@ public class OtherStartSkillProcedure {
 								}
 								if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 									_player.displayClientMessage(Component.literal(((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).WazaString)), true);
-								sourceentity.getPersistentData().putString("Archer_hit_UUID", (entity.getStringUUID()));
+								sourceentity.getPersistentData().putString("hit_UUID", (entity.getStringUUID()));
 							}
 						} else {
 							if ((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).Job == 1) {
 								if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof SwordItem) {
 									sourceentity.getPersistentData().putDouble("skill2",
 											(20001 + (sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChangeOtherSkillKeyCounter));
+									sourceentity.getPersistentData().putString("hit_UUID", (entity.getStringUUID()));
 									if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 										_player.displayClientMessage(Component.literal(((sourceentity.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).WazaString)), true);
 								}

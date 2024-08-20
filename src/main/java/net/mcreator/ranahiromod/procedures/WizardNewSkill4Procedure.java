@@ -26,7 +26,7 @@ public class WizardNewSkill4Procedure {
 			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(300 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 			for (Entity entityiterator : _entfound) {
 				if (!(entityiterator == entity) && entityiterator instanceof LivingEntity) {
-					if ((entity.getPersistentData().getString("Archer_hit_UUID")).equals(entityiterator.getStringUUID())) {
+					if ((entity.getPersistentData().getString("hit_UUID")).equals(entityiterator.getStringUUID())) {
 						AllTargetDamage3Procedure.execute(world, entityiterator.getX(), entityiterator.getY(), entityiterator.getZ(), entity);
 					}
 				}

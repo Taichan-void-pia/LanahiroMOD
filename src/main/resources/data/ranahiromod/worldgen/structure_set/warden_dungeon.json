@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "ranahiromod:fountain",
+      "structure": "ranahiromod:warden_dungeon",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 24,
-    "separation": 16,
-    "salt": 184205709
+    "spacing": 25,
+    "separation": 20,
+    "salt": 1221175369
   }
 }

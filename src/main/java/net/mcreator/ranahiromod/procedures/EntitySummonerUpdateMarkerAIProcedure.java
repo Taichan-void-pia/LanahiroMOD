@@ -20,7 +20,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.ranahiromod.network.RanahiromodModVariables;
 import net.mcreator.ranahiromod.init.RanahiromodModMobEffects;
 import net.mcreator.ranahiromod.init.RanahiromodModGameRules;
 import net.mcreator.ranahiromod.entity.EntitySummonerUpdateMarkerEntity;
@@ -53,8 +52,7 @@ public class EntitySummonerUpdateMarkerAIProcedure {
 							entity.getPersistentData().putDouble("cnt_life", (entity.getPersistentData().getDouble("cnt_life") + 1));
 							if (!entity.getPersistentData().getBoolean("start_count")) {
 								if (entityiterator.getPersistentData().getDouble("skill2") == 20505 || entityiterator.getPersistentData().getDouble("skill2") == 20507 || entityiterator.getPersistentData().getDouble("skill2") == 20509) {
-									entity.getPersistentData().putDouble("particle_fixed",
-											((entityiterator.getCapability(RanahiromodModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RanahiromodModVariables.PlayerVariables())).ChangeOtherSkillKeyCounter));
+									entity.getPersistentData().putDouble("particle_fixed", (entityiterator.getPersistentData().getDouble("skill2") - 20501));
 									entity.getPersistentData().putBoolean("start_count", true);
 								} else {
 									if (!entity.level().isClientSide())
