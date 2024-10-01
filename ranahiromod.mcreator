@@ -1798,6 +1798,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -4356,7 +4360,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/CooldownMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "NoDamage",
@@ -4368,7 +4373,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/NoDamageMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "Rice",
@@ -4759,7 +4765,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/PunchRoughMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "PunchRoughOnEffectActiveTick",
@@ -7306,7 +7313,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/HiSlownessMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "Effect3",
@@ -8092,7 +8100,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/LowAttackReinforcedMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "PhotonSeekerProjectileHitsPlayer",
@@ -9942,6 +9951,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -10206,6 +10231,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -10921,7 +10950,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/PoisonGasMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "AIMelamain",
@@ -11245,7 +11275,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/DoubleJumpCoolDownMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "DoubleJumpCoolDown2",
@@ -11257,7 +11288,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/DoubleJumpCoolDown2MobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "DoubleJumpCoolDown2Tick",
@@ -12255,6 +12287,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -12274,6 +12310,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -12293,6 +12333,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -13134,7 +13178,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/DropVectorMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "DropVectorOnEffectActiveTick",
@@ -13587,18 +13632,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -14033,7 +14066,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/SpeedDamageMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "SpeedDamageOnEffectActiveTick",
@@ -14673,6 +14707,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -17729,6 +17767,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -17869,7 +17911,8 @@
           "src/main/java/net/mcreator/ranahiromod/client/renderer/DebugSummonRenderer.java",
           "src/main/java/net/mcreator/ranahiromod/entity/DebugSummonEntity.java"
         ]
-      }
+      },
+      "path": "~/Entitys"
     },
     {
       "name": "SkillVolthiro4",
@@ -18038,6 +18081,10 @@
           {
             "name": "z",
             "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -18479,6 +18526,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -18753,7 +18804,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/FlightMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "RanaEnergy",
@@ -19109,7 +19161,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/DiscordRanahiroMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "DiscordRanahiroPotion",
@@ -20630,7 +20683,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/NullPotionMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "UndefinedCreeper",
@@ -20716,7 +20770,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/UndefinedPotionMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "UndefinedSkeleton",
@@ -20824,7 +20879,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/RotationyachMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "UndefinedPotionEffectExpires",
@@ -21000,7 +21056,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/MagicPotionMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "DomainExpansion",
@@ -21012,7 +21069,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/DomainExpansionMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "DomainExpansionEffectStartedapplied",
@@ -21279,7 +21337,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/NeutralizationMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "EntityDomainExpansionAI",
@@ -22615,7 +22674,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/Cooldown2MobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "BigRanahiro",
@@ -23174,7 +23234,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/TargetPlayerMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "TargetPlayerEffectStartedapplied",
@@ -23284,7 +23345,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/ChangeTimeMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "ChangeTimeEffectStartedapplied",
@@ -23344,7 +23406,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/VoidpotionMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "VoidpotionEffectStartedapplied",
@@ -23944,6 +24007,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -25173,6 +25240,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -26040,7 +26111,8 @@
         "files": [
           "src/main/java/net/mcreator/ranahiromod/potion/AddictionMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PotionEffects"
     },
     {
       "name": "ThisIsYourMealPlayerFinishesUsingItem",
@@ -26723,6 +26795,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27756,6 +27844,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27779,6 +27871,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27802,6 +27898,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27825,6 +27925,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27860,6 +27964,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27883,6 +27991,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27906,6 +28018,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27929,6 +28045,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27952,6 +28072,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27975,6 +28099,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -27998,6 +28126,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28021,6 +28153,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28044,6 +28180,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28067,6 +28207,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28090,6 +28234,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28113,6 +28261,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28136,6 +28288,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28159,6 +28315,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28182,6 +28342,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28205,6 +28369,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28228,6 +28396,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -28373,10 +28545,437 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "StartGameload",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_gameload",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/start_gameload.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "Statsinfo",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statsinfo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/statsinfo.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "Skillinfo",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skillinfo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/skillinfo.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "Settings",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "settings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/settings.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "SwordmanSkill",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordman_skill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/swordman_skill.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "ThiefSkill",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thief_skill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/thief_skill.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "WizardSkill",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_skill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/wizard_skill.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "ArcherSkill",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archer_skill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/archer_skill.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "AssassinSkill",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assassin_skill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/assassin_skill.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "SummonerSkill",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summoner_skill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/functions/summoner_skill.mcfunction"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "SettingTextInfo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setting_text_info",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/procedures/SettingTextInfoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others"
+    },
+    {
+      "name": "QuickSkillChange",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quick_skill_change",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/procedures/QuickSkillChangeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Skills"
+    },
+    {
+      "name": "ChangeOtherSkillOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_other_skill_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/procedures/ChangeOtherSkillOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/KeyBinding"
+    },
+    {
+      "name": "WhenEntityloadedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_entityloaded_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/procedures/WhenEntityloadedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LanahiroModScoreToSkill",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lanahiro_mod_score_to_skill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/procedures/LanahiroModScoreToSkillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others"
+    },
+    {
+      "name": "CrystalDungeon",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_dungeon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/worldgen/structure_set/crystal_dungeon.json",
+          "src/main/resources/data/ranahiromod/worldgen/structure/crystal_dungeon.json",
+          "src/main/resources/data/ranahiromod/worldgen/template_pool/crystal_dungeon.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "ThiefNewSkill3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thief_new_skill_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/procedures/ThiefNewSkill3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Skills/Job/JobSkill/Thief"
+    },
+    {
+      "name": "EnergySaveEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_save_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/procedures/EnergySaveEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EnergySave",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_save",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/potion/EnergySaveMobEffect.java"
+        ]
+      },
+      "path": "~/PotionEffects"
+    },
+    {
+      "name": "EnergySaveEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_save_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/procedures/EnergySaveEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MechanismShield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanism_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ranahiromod/item/MechanismShieldItem.java",
+          "src/main/resources/assets/ranahiromod/models/item/mechanism_shield_0.json",
+          "src/main/resources/assets/ranahiromod/models/item/mechanism_shield.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "MechanismShieldREcipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanism_shield_r_ecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ranahiromod/recipes/mechanism_shield_r_ecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PlateArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ranahiromod/models/item/plate_armor_helmet.json",
+          "src/main/resources/assets/ranahiromod/models/item/plate_armor_leggings.json",
+          "src/main/java/net/mcreator/ranahiromod/item/PlateArmorItem.java",
+          "src/main/resources/assets/ranahiromod/models/item/plate_armor_chestplate.json",
+          "src/main/resources/assets/ranahiromod/models/item/plate_armor_boots.json"
+        ],
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      },
+      "path": "~/Items/Armors"
     }
   ],
   "variable_elements": [
@@ -28672,6 +29271,12 @@
       "name": "gamer_score",
       "type": "number",
       "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "cnt_tick",
+      "type": "number",
+      "scope": "map",
       "value": "0"
     }
   ],
@@ -29117,14 +29722,22 @@
       "~CUSTOM:PinkDiamondtShovel",
       "~CUSTOM:SapphireToolShovel",
       "~CUSTOM:RubyToolShovel"
+    ],
+    "ITEMS:mod:shortswords": [
+      "CUSTOM:WoodenShortSword",
+      "CUSTOM:StoneShortSword",
+      "CUSTOM:IronShortSword",
+      "CUSTOM:GoldenShortSword",
+      "CUSTOM:DiamondShortSword",
+      "CUSTOM:NetherriteShortSword"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "advancements.the_beginning.descr": "Spawn the Wither",
-      "block.ranahiromod.key_hardened_glass": "Key Hardened Block",
       "advancements.ranahiro_protection_6.title": "Ranahiro Protection VI",
+      "block.ranahiromod.key_hardened_glass": "Key Hardened Block",
+      "advancements.the_beginning.descr": "Spawn the Wither",
       "subtitles.ossan_damage": "ossan_damage",
       "item.ranahiromod.this_is_your_meal": "Portable Nutrition Food \"Your meal only this.\"",
       "gui.ranahiromod.enchant_gui.button_enchant_lvl10": "Enchant lvl10",
@@ -29141,6 +29754,7 @@
       "gamerule.oldSound": "OldSound",
       "effect.nodamage": "NoDamage",
       "item.ranahiromod.groundhiro_spawn_egg": "§4§k||||||||||||||||§r§6§l\u003d\u003dGroundhiro\u003d\u003d§r§4§k||||||||||||||||§r Spawn Egg",
+      "skill.memorized": "memory:",
       "advancements.kill_lavahiro.title": "King of lava",
       "entity.ranahiromod.nightmare_vazafila": "NightmareVazafila",
       "item.ranahiromod.sk_liner_5077_blade": "SKLiner\u0027s Blade(FuseSlayer)",
@@ -29264,8 +29878,8 @@
       "block.ranahiromod.rice_plant_stage_0": "Rice Plant Seed",
       "item.ranahiromod.horosha_back_armor": "HoroshaBackArmor",
       "advancements.welcome_ranahiro_world.title": "MinecraftLanahiroBoeBoeEdition",
-      "advancements.return_to_sender.descr": "Destroy a Ghast with a fireball",
       "block.ranahiromod.rice_plant_stage_5": "Rice Plant Stage 5",
+      "advancements.return_to_sender.descr": "Destroy a Ghast with a fireball",
       "block.ranahiromod.rice_plant_stage_4": "Rice Plant Stage 4",
       "block.ranahiromod.rice_plant_stage_3": "Rice Plant Stage 3",
       "block.ranahiromod.rice_plant_stage_2": "Rice Plant Stage 2",
@@ -29353,13 +29967,22 @@
       "advancements.chestful_of_cobblestone.descr": "Mine 1,728 Cobblestone and place it in a chest",
       "advancements.crafted_dorayaki.title": "Blue raccoon",
       "gui.ranahiromod.sumahiro_phone_warp_gui.button_sunny": "Sunny",
+      "summoner.skill.5": "Summon B: Obsidian",
+      "summoner.skill.6": "WIP",
+      "summoner.skill.7": "Summon B: Ender Chest",
       "subtitles.flame_explode": "flame_explode",
+      "summoner.skill.8": "Exploding Tub Drop",
       "gamerule.worldBanDeletedSystem": "WorldBanSystemDeleted",
       "item.ranahiromod.ranahiro_power": "Red Power",
+      "summoner.skill.9": "Summon: Petit Black Hole",
       "item.ranahiromod.general_skeleton_spawn_egg": "General Skeleton Spawn Egg",
       "gamerule.oldSound.description": "Can listen old sound",
       "eat.mochi.mottie.message": "He seems to have clogged rice cakes in his throat.",
       "not.armor": "Why are you trying to equip it??? ",
+      "summoner.skill.1": "Field",
+      "summoner.skill.2": "Gold Tub Drop",
+      "summoner.skill.3": "Quake",
+      "summoner.skill.4": "Hot Tub Drop",
       "advancements.doubling_exp_1.title": "Doubling Exp I",
       "advancements.adventuring_time.title": "Adventuring Time",
       "item.ranahiromod.sk_liner_5077_spawn_egg": "SKLiner_5077 Spawn Egg",
@@ -29375,6 +29998,7 @@
       "advancements.crafted_rice_ball.descr": "Cooked a RiceBall",
       "advancements.doubling_score_3.title": "Doubling Score III",
       "advancements.acquire_hardware.descr": "Smelt an iron ingot",
+      "couldnt.hold.because.enemy": "The enemy\u0027s health is too high!",
       "gui.ranahiromod.sumahiro_phone_warp_gui.button_home": "Home",
       "advancements.moar_tools.title": "MOAR Tools",
       "item.ranahiromod.epic_down_zombie_spawn_egg": "Epic Down Zombie Spawn Egg",
@@ -29382,6 +30006,7 @@
       "gui.ranahiromod.leveling_gui.label_leveling": "Leveling",
       "knight.skill.2": "Nagiharai",
       "knight.skill.3": "Tobasigiri",
+      "send.effect.energy_save.expire": "Energy Save effect has expired.",
       "knight.skill.4": "Majingiri",
       "knight.skill.5": "Zantetsu",
       "advancements.double_jump.title": "DoubleJump I",
@@ -29436,6 +30061,7 @@
       "advancements.join_private.descr": "Join your PrivateBOX",
       "gui.ranahiromod.leveling_gui.button_attackspeed": "AttackSpeed",
       "consum.mp": "NowConsumptionMana",
+      "item.ranahiromod.mechanism_shield": "§b§l§k|||§r§d§lMechanism Shield§r§b§l§k|||§r",
       "advancements.doubling_exp_3.title": "Doubling Exp III",
       "item.ranahiromod.melamain_rod": "MelamainRod",
       "item.ranahiromod.random_dye_generator": "RandomDyeGenerator",
@@ -29557,6 +30183,7 @@
       "vazafila.skill.3": "Photon-Divide",
       "vazafila.skill.6": "Photon-Burst",
       "vazafila.skill.5": "Photon-Unite",
+      "failed.select.because.job": "You must get a correct job to select the skill.",
       "vazafila.skill.8": "Photon-Server",
       "advancements.into_fire.descr": "Relieve a Blaze of its rod",
       "advancements.get_crystals.descr": "Got a Crystal",
@@ -29641,6 +30268,7 @@
       "advancements.catch_fish_1000.title": "Fishing Master",
       "item.ranahiromod.dragonhiro_spawn_egg": "§7§k||||||||||||||||§r§8§l\u003d\u003dDragonhiro\u003d\u003d§r§7§k||||||||||||||||§r Spawn Egg",
       "item.ranahiromod.devil_eye_armor_helmet": "Devil Eye",
+      "couldnt.hold.because.over": "Inventory is full!",
       "subtitles.shotgun_shot": "shotgun_shot",
       "biome.ranahiromod.lava_everest": "LavaEverest",
       "entity.ranahiromod.water_dragon": "WaterDragon",
@@ -29703,6 +30331,8 @@
       "melamain.skill.4": "Homing magic bullet",
       "advancements.get_rubies.title": "Get Ruby",
       "advancements.delicious_fish.title": "Delicious Fish",
+      "send.effect.energy_save.expire.2": "Reinforced Energy Save effect has expired.",
+      "effect.ranahiromod.energy_save": "Energy Save",
       "gui.ranahiromod.sumahiro_phone_music_gui.button_thunder": "Thunder",
       "item.ranahiromod.farion_gun": "Farion Gun",
       "advancements.event_chance_2.descr": "An event occurs when you dig a block",
@@ -29730,6 +30360,7 @@
       "subtitles.dragonhiro_battle": "dragonhiro_battle",
       "item_group.ranahiromod.double_hiro_in_sumahiro": "Double Hiro In Sumahiro",
       "advancements.kill_bosshiro.title": "the culprit of all...?",
+      "item.ranahiromod.plate_armor_leggings": "PlateArmor Leggings",
       "advancements.benchmarking.descr": "Craft a workbench with four blocks of planks",
       "advancements.kill_lavahiro.descr": "Killed Lavahiro",
       "item.ranahiromod.pink_diamondt_pickaxe": "PinkDiamond Pickaxe",
@@ -29823,6 +30454,7 @@
       "gui.ranahiromod.sumahiro_phone_warp_gui.button_favoriteplace3": "FavoritePlace3",
       "item.ranahiromod.spladot_spawn_egg": "Spladot Spawn Egg",
       "gamerule.toggleBGM": "ToggleBGM",
+      "failed.select.because.item": "You must have the carrot on a stick in your main hand to select the skill.",
       "sk.skill.6": "Outspark",
       "vazafila.skill.12": "Weapon transformation",
       "item.ranahiromod.groundhiro_item": "Groundhiro Axe",
@@ -29877,6 +30509,7 @@
       "advancements.the_beginning.title": "The Beginning?",
       "advancements.crafted_dorayaki.descr": "Cooked a Dorayaki",
       "item.ranahiromod.big_ranahiro_spawn_egg": "pirokichihawaii(Ranahiro) Spawn Egg",
+      "item.ranahiromod.plate_armor_boots": "PlateArmor Boots",
       "item.ranahiromod.vazafila_sword": "Vazafila\u0027s Sword(Valzefas)",
       "item.ranahiromod.stone_short_sword": "Stone Short Sword",
       "biome.ranahiromod.wind_everest": "WindEverest",
@@ -29905,6 +30538,7 @@
       "item.ranahiromod.bolthiro_item": "Volthiro Knife",
       "itemGroup.tabdouble_hiro_in_ranahiro": "Double Hiro In Ranahiro",
       "advancements.kill_taichan.descr": "killed Taichan \"Thank you for playing!\" by taichan_",
+      "item.ranahiromod.plate_armor_chestplate": "PlateArmor Chestplate",
       "gui.ranahiromod.smahirophone_base_gui.label_000": "0:00",
       "item.ranahiromod.undefined_creeper_spawn_egg": "Undefined Creeper Spawn Egg",
       "item.ranahiromod.gale_slasher_spawn_egg": "§2§l\u003d\u003dGaleSlasher\u003d\u003d§r Spawn Egg",
@@ -29918,6 +30552,7 @@
       "block.ranahiromod.flashlight_block": "Flashlight Block",
       "advancements.ranahiro_protection_7.descr": "Reduces attacks from attribute Ranahiro",
       "gamerule.toggle_bgm": "LanahiroModPVP",
+      "send.effect.energy_save": "Energy Save effect has been activated.",
       "on.armor.chest": "Wearing equipment!",
       "subtitles.guard_sword": "guard_sword",
       "gamerule.nobodyRestraints": "NobodyRestraint",
@@ -29944,7 +30579,7 @@
       "item.ranahiromod.flash_light": "Flashlight",
       "wizard.skill.2": "Dier",
       "wizard.skill.3": "FlowerGift",
-      "wizard.skill.1": "kearu",
+      "wizard.skill.1": "Cure",
       "advancements.lion_hunter.title": "Lion Hunter",
       "wizard.skill.6": "CrossFire",
       "wizard.skill.7": "ThunderBolt",
@@ -29971,6 +30606,7 @@
       "gamerule.toggleBGM.description": "Can listen BGM",
       "item_group.ranahiromod.double_hiro_in_ranahiro": "Double Hiro In Ranahiro",
       "archer.skill.4": "RndPower",
+      "item.ranahiromod.plate_armor_helmet": "PlateArmor Helmet",
       "archer.skill.5": "FatalShot",
       "advancements.ranahiro_protection_3.descr": "Reduces attacks from attribute Ranahiro",
       "archer.skill.1": "ChainArrow",
@@ -29987,6 +30623,7 @@
       "gui.ranahiromod.sumahiro_phone_weather_control.button_rain": "Rain",
       "item.ranahiromod.epic_down_blaze_spawn_egg": "Epic Down Blaze Spawn Egg",
       "item.ranahiromod.rice_plant": "RicePlant",
+      "send.effect.energy_save.2": "Reinforced Energy Save effect has been activated.",
       "item.ranahiromod.okonomiyaki": "Okonomiyaki(Hiroshima-style)(WIP)",
       "item.ranahiromod.rana_energy": "Rana Energy",
       "item.ranahiromod.wardenhiro_item": "Wardenhiro Megaphone",
@@ -30269,15 +30906,6 @@
         "children": []
       },
       {
-        "name": "Advancement",
-        "children": [
-          {
-            "name": "UnlockProcedure",
-            "children": []
-          }
-        ]
-      },
-      {
         "name": "blocks",
         "children": []
       },
@@ -30304,6 +30932,19 @@
       {
         "name": "Enchantments",
         "children": []
+      },
+      {
+        "name": "Advancement",
+        "children": [
+          {
+            "name": "UnlockProcedure",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "PotionEffects",
+        "children": []
       }
     ]
   },
@@ -30325,5 +30966,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.ranahiromod"
   },
-  "mcreatorVersion": 202400229712
+  "mcreatorVersion": 202400339215
 }
